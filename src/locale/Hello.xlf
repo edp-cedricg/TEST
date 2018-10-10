@@ -24,6 +24,15 @@
         </target>
       </trans-unit>
       
+      <trans-unit id="whatsthat" datatype="html">
+        <source>
+          Hello there
+        </source>
+        <target>
+          Cool
+        </target>
+      </trans-unit>
+      
       <trans-unit id="countdown" datatype="html">
         <source>
           Updated: minutes, plural, =0 just now =1 1 minute ago other minutes minutes ago
