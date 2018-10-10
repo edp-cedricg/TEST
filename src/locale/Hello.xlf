@@ -17,6 +17,17 @@
         <target/>
       </trans-unit>
       
+      <trans-unit id="countdown" datatype="html">
+        <source>
+          Updated: {minutes, plural, =0 {just now} =1 {1 minute ago} other {{{minutes}} minutes ago}}
+        </source>
+        <target/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      
     </body>
   </file>
 </xliff>
