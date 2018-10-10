@@ -5,14 +5,14 @@
       
       <trans-unit id="mainTitle" datatype="html">
         <source>
-          Welcome to <x id="INTERPOLATION" equiv-text="{{ title }}"/>!
+          Welcome to !
         </source>
         <target/>
       </trans-unit>
       
       <trans-unit id="firstSentence" datatype="html">
         <source>
-          Hello, at the moment it is <x id="INTERPOLATION" equiv-text="{{ dateTime | date: &apos;shortTime&apos;}}"/>.
+          Hello, at the moment it is .
         </source>
         <target/>
       </trans-unit>
