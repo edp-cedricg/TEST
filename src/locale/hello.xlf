@@ -4,7 +4,7 @@
     <body>
       <trans-unit id="mainTitle" datatype="html">
         <source>
-      Welcome to <x id="INTERPOLATION" equiv-text="{{ title }}"/>!
+      Welcome to!
     </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/app.component.html</context>
@@ -22,7 +22,7 @@
       </trans-unit>
       <trans-unit id="firstSentence" datatype="html">
         <source>
-      Hello, at the moment it is <x id="INTERPOLATION" equiv-text="{{ dateTime | date: &apos;shortTime&apos;}}"/>.
+      Hello, at the moment it is 
     </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/app.component.html</context>
@@ -32,28 +32,28 @@
         <note priority="1" from="meaning">first sentence</note>
       </trans-unit>
       <trans-unit id="countdown" datatype="html">
-        <source> Updated: <x id="ICU" equiv-text="{minutes, plural, =0 {...} =1 {...} other {...}}"/></source>
+        <source> Updated:</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/app.component.html</context>
           <context context-type="linenumber">14</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3d9013bcc5adc3098e972cbccbb8a90d0ce8bf8e" datatype="html">
-        <source>{VAR_PLURAL, plural, =0 {just now} =1 {1 minute ago} other {<x id="INTERPOLATION" equiv-text="{{minutes}}"/> minutes ago} }</source>
+        <source>VAR_PLURAL, plural, =0 just now =1 1 minute ago other  minutes ago </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/app.component.html</context>
           <context context-type="linenumber">14</context>
         </context-group>
       </trans-unit>
       <trans-unit id="alternative" datatype="html">
-        <source> by a <x id="ICU" equiv-text="{gender, select, m {...} f {...}}"/> coworker</source>
+        <source> by a  coworker</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/app.component.html</context>
           <context context-type="linenumber">15</context>
         </context-group>
       </trans-unit>
       <trans-unit id="14c7055d67771a3b7b6888d282ac092896be06b6" datatype="html">
-        <source>{VAR_SELECT, select, m {male} f {female} }</source>
+        <source>VAR_SELECT, select, m male f female </source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/app.component.html</context>
           <context context-type="linenumber">15</context>
