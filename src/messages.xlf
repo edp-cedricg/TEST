@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="mainTitle" datatype="html">
+        <source>
+      Welcome to <x id="INTERPOLATION" equiv-text="{{ title }}"/>!
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <note priority="1" from="description">the main title</note>
+        <note priority="1" from="meaning">website title</note>
+      </trans-unit>
+      <trans-unit id="f3568c7ea2c6cd41cc00b5f08ac6427549982e32" datatype="html">
+        <source>Hallo Welt</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="firstSentence" datatype="html">
+        <source>
+      Hello, at the moment it is <x id="INTERPOLATION" equiv-text="{{ dateTime | date: &apos;shortTime&apos;}}"/>.
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <note priority="1" from="description">states the time</note>
+        <note priority="1" from="meaning">first sentence</note>
+      </trans-unit>
+      <trans-unit id="countdown" datatype="html">
+        <source> Updated: <x id="ICU" equiv-text="{minutes, plural, =0 {...} =1 {...} other {...}}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3d9013bcc5adc3098e972cbccbb8a90d0ce8bf8e" datatype="html">
+        <source>{VAR_PLURAL, plural, =0 {just now} =1 {1 minute ago} other {<x id="INTERPOLATION" equiv-text="{{minutes}}"/> minutes ago} }</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="alternative" datatype="html">
+        <source> by a <x id="ICU" equiv-text="{gender, select, m {...} f {...}}"/> coworker</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="14c7055d67771a3b7b6888d282ac092896be06b6" datatype="html">
+        <source>{VAR_SELECT, select, m {male} f {female} }</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1238c87eb800f7ac65e26c8514dcfa0f4b5dc83b" datatype="html">
+        <source>from Date</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+        <note priority="1" from="description">from Date placeholder</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
