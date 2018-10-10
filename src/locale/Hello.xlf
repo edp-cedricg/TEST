@@ -10,6 +10,13 @@
         <target/>
       </trans-unit>
       
+      <trans-unit id="firstSentence" datatype="html">
+        <source>
+          Hello, at the moment it is <x id="INTERPOLATION" equiv-text="{{ dateTime | date: &apos;shortTime&apos;}}"/>.
+        </source>
+        <target/>
+      </trans-unit>
+      
     </body>
   </file>
 </xliff>
