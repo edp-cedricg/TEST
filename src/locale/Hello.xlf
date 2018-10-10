@@ -7,7 +7,6 @@
         <source>
           Welcome to!
         </source>
-        <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">app/app.component.html</context>
           <context context-type="linenumber">18</context>
@@ -19,7 +18,9 @@
         <source>
           Hello, at the moment it is.
         </source>
-        <target/>
+        <target>
+          Hallo
+        </target>
       </trans-unit>
       
       <trans-unit id="countdown" datatype="html">
