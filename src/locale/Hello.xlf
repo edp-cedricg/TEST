@@ -8,6 +8,7 @@
           Welcome to!
         </source>
         <target/>
+        <note priority="1" from="description">from Date placeholder</note>
       </trans-unit>
       
       <trans-unit id="firstSentence" datatype="html">
