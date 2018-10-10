@@ -5,14 +5,14 @@
       
       <trans-unit id="mainTitle" datatype="html">
         <source>
-          Welcome to !
+          Welcome to!
         </source>
         <target/>
       </trans-unit>
       
       <trans-unit id="firstSentence" datatype="html">
         <source>
-          Hello, at the moment it is .
+          Hello, at the moment it is.
         </source>
         <target/>
       </trans-unit>
@@ -22,12 +22,19 @@
           Updated: {minutes, plural, =0 {just now} =1 {1 minute ago} other {{{minutes}} minutes ago}}
         </source>
         <target/>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/app.component.html</context>
-          <context context-type="linenumber">13</context>
-        </context-group>
       </trans-unit>
       
+      <trans-unit id="alternative" datatype="html">
+        <source>
+          by a {gender, select, m {male} f {female}} coworker
+        </source>
+        <target/>
+      </trans-unit>
+      
+      <trans-unit id="1238c87eb800f7ac65e26c8514dcfa0f4b5dc83b" datatype="html">
+        <source>from Date</source>
+        <target/>
+      </trans-unit>
     </body>
   </file>
 </xliff>
