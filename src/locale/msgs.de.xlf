@@ -15,10 +15,10 @@
       
       <trans-unit id="mainTitle" datatype="html">
         <source>
-          Welcome to <x id="INTERPOLATION" equiv-text="{{ title }}"/>!
+          Welcome to XY!
         </source>
         <target>
-          Willkommen zu <x id="INTERPOLATION" equiv-text="{{ title }}"/>!
+          Willkommen zu XY!
         </target>
       </trans-unit>
       

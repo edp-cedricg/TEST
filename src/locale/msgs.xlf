@@ -13,6 +13,13 @@
         <note priority="1" from="description">App title</note>
       </trans-unit>
       
+      <trans-unit id="mainTitle" datatype="html">
+        <source>
+          Welcome to XY!
+        </source>
+        </target>
+      </trans-unit>
+      
     </body>
   </file>
 </xliff>
