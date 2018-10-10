@@ -19,14 +19,14 @@
       
       <trans-unit id="countdown" datatype="html">
         <source>
-          Updated: {minutes, plural, =0 {just now} =1 {1 minute ago} other {{{minutes}} minutes ago}}
+          Updated: minutes, plural, =0 just now =1 1 minute ago other minutes minutes ago
         </source>
         <target/>
       </trans-unit>
       
       <trans-unit id="alternative" datatype="html">
         <source>
-          by a {gender, select, m {male} f {female}} coworker
+          by a gender, select, m male f female coworker
         </source>
         <target/>
       </trans-unit>
