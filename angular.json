@@ -31,7 +31,7 @@
             "de": {
               "aot": true,
               "outputPath": "dist/translate",
-              "i18nFile": "src/locale/messages.de.xlf",
+              "i18nFile": "src/i18n/messages.de.xlf",
               "i18nFormat": "xlf",
               "i18nLocale": "de"
             },
