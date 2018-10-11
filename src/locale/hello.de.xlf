@@ -23,7 +23,7 @@
       <trans-unit id="firstSentence" datatype="html">
         <source>
       Hello, at the moment it is 
-    </source><target></target>
+    </source><target state="new"/>
         <context-group purpose="location">
           <context context-type="sourcefile">app/app.component.html</context>
           <context context-type="linenumber">10</context>
