@@ -12,14 +12,14 @@
         <note priority="1" from="meaning">website title</note>
       </trans-unit>
       <trans-unit id="f3568c7ea2c6cd41cc00b5f08ac6427549982e32" datatype="html">
-        <source>Hello World</source><target>Hallo Welt</target>
+        <source>Hello World</source><target></target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/app.component.html</context>
           <context context-type="linenumber">8</context>
         </context-group>
       </trans-unit>
       <trans-unit id="firstSentence" datatype="html">
-        <source>Hello, at the moment it is </source><target state="new">Hallo, momentan ist es</target>
+        <source>Hello, at the moment it is </source><target state="new"></target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/app.component.html</context>
           <context context-type="linenumber">10</context>
