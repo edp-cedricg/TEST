@@ -8,7 +8,6 @@
           <context context-type="sourcefile">app/login/login.component.ts</context>
           <context context-type="linenumber">9</context>
         </context-group>
-        <note priority="1" from="description">the noun</note>
       </trans-unit>
       <trans-unit id="instancePlaceholder" datatype="html">
         <source>Instanz [z.B.: &apos;VERLAG-prod&apos; oder iURL]</source>
@@ -44,7 +43,6 @@
           <context context-type="sourcefile">app/login/login.component.ts</context>
           <context context-type="linenumber">48</context>
         </context-group>
-        <note priority="1" from="description">the verb</note>
       </trans-unit>
       <trans-unit id="browserBlocking" datatype="html">
         <source>
@@ -435,7 +433,6 @@ Offert- &amp; Auftrags-Tool:
           <context context-type="sourcefile">app/tools/crm/shared/components/kundensuchfeld/kundensuchfeld.component.ts</context>
           <context context-type="linenumber">56</context>
         </context-group>
-        <note priority="1" from="description">with postal code</note>
       </trans-unit>
       <trans-unit id="firstNamePlaceholder" datatype="html">
         <source>Vorname</source>
@@ -633,6 +630,7 @@ Offert- &amp; Auftrags-Tool:
           <context context-type="sourcefile">app/tools/crm/crmplus/shared/components/art/art.component.ts</context>
           <context context-type="linenumber">3</context>
         </context-group>
+        <note priority="1" from="description">Welche Art von...</note>
       </trans-unit>
       <trans-unit id="feature1Placeholder" datatype="html">
         <source>Merkmal1</source>
@@ -1073,6 +1071,7 @@ Offert- &amp; Auftrags-Tool:
           <context context-type="sourcefile">app/tools/offerte/offerte-show/offerte-show.component.ts</context>
           <context context-type="linenumber">328</context>
         </context-group>
+        <note priority="1" from="description">Unterrubrik</note>
       </trans-unit>
       <trans-unit id="interrupt" datatype="html">
         <source>Abbrechen</source>
@@ -1153,10 +1152,9 @@ Offert- &amp; Auftrags-Tool:
           <context context-type="sourcefile">app/tools/crm/shared/components/auftragdetail/auftragdetail.component.ts</context>
           <context context-type="linenumber">10</context>
         </context-group>
-        <note priority="1" from="description">no order is deposited</note>
       </trans-unit>
       <trans-unit id="orderSujetSubject" datatype="html">
-        <source>Auftrag/Sujet/Betreff:</source>
+        <source>Auftrag/Sujet/Betreff</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/tools/crm/shared/components/auftragdetail/auftragdetail.component.ts</context>
           <context context-type="linenumber">14</context>
@@ -1762,7 +1760,7 @@ Offert- &amp; Auftrags-Tool:
         </context-group>
       </trans-unit>
       <trans-unit id="additionFirmOneTwo" datatype="html">
-        <source>Zusatzfirma 1/2: </source>
+        <source>Zusatzfirma</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/tools/crm/shared/components/kundenfacts/kundenfacts.component.ts</context>
           <context context-type="linenumber">32</context>
@@ -1851,6 +1849,7 @@ Offert- &amp; Auftrags-Tool:
           <context context-type="sourcefile">app/tools/crm/crmplus/shared/components/umsatzkunde/umsatzkunde.component.ts</context>
           <context context-type="linenumber">6</context>
         </context-group>
+        <note priority="1" from="description">privat / alle</note>
       </trans-unit>
       <trans-unit id="agent" datatype="html">
         <source>Vermittler</source>
@@ -1995,6 +1994,7 @@ Offert- &amp; Auftrags-Tool:
           <context context-type="sourcefile">app/tools/crm/crmplus/shared/components/auftraglist/auftraglist.component.ts</context>
           <context context-type="linenumber">17</context>
         </context-group>
+        <note priority="1" from="description">Auftragsnummer</note>
       </trans-unit>
       <trans-unit id="aufart" datatype="html">
         <source>Aufart</source>
@@ -2010,6 +2010,7 @@ Offert- &amp; Auftrags-Tool:
           <context context-type="sourcefile">app/tools/crm/crmplus/shared/components/auftraglist/auftraglist.component.ts</context>
           <context context-type="linenumber">62</context>
         </context-group>
+        <note priority="1" from="description">Auftragsart</note>
       </trans-unit>
       <trans-unit id="sellingChanceDetail" datatype="html">
         <source>Verkaufschancendetail</source>
@@ -2200,6 +2201,7 @@ Offert- &amp; Auftrags-Tool:
           <context context-type="sourcefile">app/tools/offerte/offerte-show/offerte-show.component.ts</context>
           <context context-type="linenumber">9</context>
         </context-group>
+        <note priority="1" from="description">Sidenavigation</note>
       </trans-unit>
       <trans-unit id="searchDetail" datatype="html">
         <source>Suchkriterien</source>
@@ -2211,7 +2213,6 @@ Offert- &amp; Auftrags-Tool:
           <context context-type="sourcefile">app/tools/crm/crmplus/edpapps/timeline/timelinelist/timelinelist.component.ts</context>
           <context context-type="linenumber">17</context>
         </context-group>
-        <note priority="1" from="description">terminlist searchdetail</note>
       </trans-unit>
       <trans-unit id="fromDatePlaceholder" datatype="html">
         <source>von Datum</source>
@@ -2227,7 +2228,6 @@ Offert- &amp; Auftrags-Tool:
           <context context-type="sourcefile">app/tools/crm/crmplus/edpapps/umsatz/umsatzdetail/umsatzdetail.component.ts</context>
           <context context-type="linenumber">34</context>
         </context-group>
-        <note priority="1" from="description">von Datum placeholder</note>
       </trans-unit>
       <trans-unit id="toDatePlaceholder" datatype="html">
         <source>bis Datum</source>
@@ -2243,7 +2243,6 @@ Offert- &amp; Auftrags-Tool:
           <context context-type="sourcefile">app/tools/crm/crmplus/edpapps/umsatz/umsatzdetail/umsatzdetail.component.ts</context>
           <context context-type="linenumber">39</context>
         </context-group>
-        <note priority="1" from="description">bis Datum placeholder</note>
       </trans-unit>
       <trans-unit id="openAppointments" datatype="html">
         <source>Offene Termine/Rapporte</source>
@@ -2251,7 +2250,6 @@ Offert- &amp; Auftrags-Tool:
           <context context-type="sourcefile">app/tools/crm/crmplus/edpapps/termin/terminlist/terminlist.component.ts</context>
           <context context-type="linenumber">99</context>
         </context-group>
-        <note priority="1" from="description">open appointments</note>
       </trans-unit>
       <trans-unit id="filterPlaceholder" datatype="html">
         <source>Filter</source>
@@ -2263,7 +2261,6 @@ Offert- &amp; Auftrags-Tool:
           <context context-type="sourcefile">app/tools/crm/crmplus/shared/components/auftraglist/auftraglist.component.ts</context>
           <context context-type="linenumber">5</context>
         </context-group>
-        <note priority="1" from="description">Filter placeholder</note>
       </trans-unit>
       <trans-unit id="clientNumber" datatype="html">
         <source>Kunden Nr</source>
@@ -2397,6 +2394,7 @@ Offert- &amp; Auftrags-Tool:
           <context context-type="sourcefile">app/tools/crm/crmplus/shared/components/umsatztabelle/umsatztabelle.component.ts</context>
           <context context-type="linenumber">21</context>
         </context-group>
+        <note priority="1" from="description">Aktuelles Jahr</note>
       </trans-unit>
       <trans-unit id="previousYear" datatype="html">
         <source>Vorjahr</source>
@@ -2411,6 +2409,7 @@ Offert- &amp; Auftrags-Tool:
           <context context-type="sourcefile">app/tools/crm/crmplus/shared/components/umsatztabelle/umsatztabelle.component.ts</context>
           <context context-type="linenumber">32</context>
         </context-group>
+        <note priority="1" from="description">Differenz Absolut</note>
       </trans-unit>
       <trans-unit id="differenceAbsPercent" datatype="html">
         <source>Diff%</source>
@@ -2418,6 +2417,7 @@ Offert- &amp; Auftrags-Tool:
           <context context-type="sourcefile">app/tools/crm/crmplus/shared/components/umsatztabelle/umsatztabelle.component.ts</context>
           <context context-type="linenumber">37</context>
         </context-group>
+        <note priority="1" from="description">Differenz in Prozent</note>
       </trans-unit>
       <trans-unit id="budget" datatype="html">
         <source>Budget</source>
@@ -2432,6 +2432,7 @@ Offert- &amp; Auftrags-Tool:
           <context context-type="sourcefile">app/tools/crm/crmplus/shared/components/umsatztabelle/umsatztabelle.component.ts</context>
           <context context-type="linenumber">47</context>
         </context-group>
+        <note priority="1" from="description">Differenz Budget</note>
       </trans-unit>
       <trans-unit id="differenceBudgetPercent" datatype="html">
         <source>Diff%-Bud</source>
@@ -2439,6 +2440,7 @@ Offert- &amp; Auftrags-Tool:
           <context context-type="sourcefile">app/tools/crm/crmplus/shared/components/umsatztabelle/umsatztabelle.component.ts</context>
           <context context-type="linenumber">52</context>
         </context-group>
+        <note priority="1" from="description">Differenz Budget in Prozent</note>
       </trans-unit>
       <trans-unit id="followingYear" datatype="html">
         <source>Nachjahr</source>
@@ -2748,6 +2750,7 @@ Offert- &amp; Auftrags-Tool:
           <context context-type="sourcefile">app/tools/offerte/offerte-show/offerte-show.component.ts</context>
           <context context-type="linenumber">468</context>
         </context-group>
+        <note priority="1" from="description">Anzahl Erscheinungen</note>
       </trans-unit>
       <trans-unit id="appearenceEdition" datatype="html">
         <source>Ersch. / Ausg.</source>
@@ -2755,6 +2758,7 @@ Offert- &amp; Auftrags-Tool:
           <context context-type="sourcefile">app/tools/offerte/offerte-show/offerte-show.component.ts</context>
           <context context-type="linenumber">469</context>
         </context-group>
+        <note priority="1" from="description">Erscheinungen / Ausgabe</note>
       </trans-unit>
       <trans-unit id="quantityAppearence2" datatype="html">
         <source>Anzahl/Erscheinung</source>
@@ -2818,6 +2822,7 @@ Offert- &amp; Auftrags-Tool:
           <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-quer-5/a4-quer-5.component.ts</context>
           <context context-type="linenumber">94</context>
         </context-group>
+        <note priority="1" from="description">Schwarz-Weiss</note>
       </trans-unit>
       <trans-unit id="commaColored" datatype="html">
         <source>farbig</source>
@@ -2885,6 +2890,7 @@ Offert- &amp; Auftrags-Tool:
           <context context-type="sourcefile">app/tools/offerte/offerte-show/offerte-show.component.ts</context>
           <context context-type="linenumber">664</context>
         </context-group>
+        <note priority="1" from="description">Berechneter Preis</note>
       </trans-unit>
       <trans-unit id="priceAdMedium" datatype="html">
         <source>Preis (Werbemittel)</source>
@@ -3129,6 +3135,7 @@ Offert- &amp; Auftrags-Tool:
           <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-hoch-2/a4-hoch-2.component.ts</context>
           <context context-type="linenumber">131</context>
         </context-group>
+        <note priority="1" from="description">Anzeigeschluss bis heute FÜr alle Bücher</note>
       </trans-unit>
       <trans-unit id="sumPrice" datatype="html">
         <source>Gesamtpreis</source>
@@ -3260,6 +3267,7 @@ Offert- &amp; Auftrags-Tool:
           <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-quer-5/a4-quer-5.component.ts</context>
           <context context-type="linenumber">101</context>
         </context-group>
+        <note priority="1" from="description">(Breite x Höhe)</note>
       </trans-unit>
       <trans-unit id="businessconditions" datatype="html">
         <source>Daten-, Tarif- und Grössenänderungen vorbehalten. Es gelten die allgemeinen Geschäftsbedingungen.</source>
@@ -3468,6 +3476,7 @@ Offert- &amp; Auftrags-Tool:
           <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-quer-4/a4-quer-4.component.ts</context>
           <context context-type="linenumber">74</context>
         </context-group>
+        <note priority="1" from="description">Wiederholungsrabatt</note>
       </trans-unit>
       <trans-unit id="completionWHpercentC" datatype="html">
         <source>in</source>
@@ -3552,6 +3561,7 @@ Offert- &amp; Auftrags-Tool:
           <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-quer-3/a4-quer-3.component.ts</context>
           <context context-type="linenumber">67</context>
         </context-group>
+        <note priority="1" from="description">Beraterkommission 1. Teil</note>
       </trans-unit>
       <trans-unit id="adviserCommissionDividedB" datatype="html">
         <source>kom-</source>
@@ -3563,6 +3573,7 @@ Offert- &amp; Auftrags-Tool:
           <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-quer-3/a4-quer-3.component.ts</context>
           <context context-type="linenumber">67</context>
         </context-group>
+        <note priority="1" from="description">Beraterkommission 2. Teil</note>
       </trans-unit>
       <trans-unit id="adviserCommissionDividedC" datatype="html">
         <source>mission</source>
@@ -3574,6 +3585,7 @@ Offert- &amp; Auftrags-Tool:
           <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-quer-3/a4-quer-3.component.ts</context>
           <context context-type="linenumber">67</context>
         </context-group>
+        <note priority="1" from="description">Beraterkommission 3. Teil</note>
       </trans-unit>
       <trans-unit id="totalNetSlashNetB" datatype="html">
         <source>Netto/Netto</source>
