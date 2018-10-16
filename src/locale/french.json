@@ -1,7 +1,7 @@
 {
     "url1" : "/src/app/tools/shared/components/home/home.component.ts",
-    "hello" : "Hallo ",
-    "hi" : "Grüezi ",
+    "hello" : "Bonjour ",
+    "hi" : "Salut ",
     "goodMorning" : "Guten Morgen ",
     "goodNoon" : "Guten Mittag ",
     "goodAfternoon" : "Guten Nachmittag ",
