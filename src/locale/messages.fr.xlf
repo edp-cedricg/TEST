@@ -28,7 +28,7 @@
       </trans-unit>
       <trans-unit id="usernamePlaceholder" datatype="html">
         <source>Benutzername</source>
-        <target state="final">Nom d'Utilisateur</target>
+        <target state="new">Benutzername</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/login/login.component.ts</context>
           <context context-type="linenumber">33</context>
@@ -64,264 +64,6 @@
           <context context-type="linenumber">1</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="license" datatype="html">
-        <source>Lizenz: edp kommerziell. Copyright 2015-2017 by edp-services ag</source>
-        <target state="new">Lizenz: edp kommerziell. Copyright 2015-2017 by edp-services ag</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/tools/shared/dialogs/programminformation/programminformation.component.ts</context>
-          <context context-type="linenumber">19</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="releasenotes" datatype="html">
-        <source>Releasenotes</source>
-        <target state="new">Releasenotes</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/tools/shared/dialogs/programminformation/programminformation.component.ts</context>
-          <context context-type="linenumber">23</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="license1" datatype="html">
-        <source>    
-8.0.2.web.6 (2018-03-19/RPS)
-
-Software-Voraussetzung (minimal): 
-Backoffice: 
-     Basis: faros Release 8.0, Patch 1 mit Zusatzprogramm
-   Servlet: RESTService-&lt;Instanz>-LP (neu)
-
-
-Installationsvoraussetzung:
-Servlet:    Benennung gemäss Namenskonvention: RESTService-&lt;Instanz>-LP, wobei Instanz = Kundenkürzel - Art der DB 
-=> Bsp: edp-prod
-
-
-Hinweise zu den Browsern:
-- Empfehlung edp: Google Chrome (Begründung: überlegene Performance, Druckfunktion ausgereift)
-- Mit Einschränkungen möglich: Mozilla Firefox ab Version 54
-  (bekannte Einschränkungen: Druckfunktion untauglich, Performance zumindest bis Version 54
-  deutlich schlechter als Google Chrome; tw. optische Beeinträchtigungen;
-  ab Version 55 brauchbare Performance und optisch vergleichbar mit Google Chrome)
-
-
-Hinweise zur Software:
-
-
-Neu:
-Allgemein:
-  - iURL-Unterstützung bei Instanz im Login
-
-CRMtel: 
-  - Agentureinbindung
-  - Instanz von Login durch die ganze App
-
-Offert- &amp; Auftrags-Tool:
-  - Default für Mail-Text
-  - Default für werbemittelFarbanz
-  - Sujetnr ist - wenn erlaubt - pro Werbemittel änderbar
-  - Default für buchungsartErscheinung
-  - Zurück an den oberen Rand scrollen (Button links unten)
-  - Auftragsdetails mit möglicher Direktverlinkung aus Drittapps
-  - Unterstützung von Werbeformaten, die nach Anzahl funktionieren (Basis)
-  - Neue Felder: VermittlerID, Vermittlername und KontaktID und Kontaktname
-  - Neuer PDF-Renderer
-  - Möglichkeit, Seitenumbruch nach Werbemittel zu forcieren
-  - Internet-Zuschläge können erfasst werden
-  - Objekt-Autocompleter
-  - Auto-Cleanup bei Preispositionen wenn Werbemittel geändert werden
-  - non-blocking-Warnung bei unvollständigen Daten für Preisberechnung
-  - Automatische Assistenz beim Neuberechnen und Aufräumen möglicherweise ungültiger Kombinationen
-  - DeLuxe-Scroll-Funktion auch für aktuelle Firefox-Versionen
-  - Erweiterungen beim Aufruf aus Dritt-Applikationen
-  - Querformat-Templates
-  - Farbigkeit zur Auswahl
-  - Abschlussintegration
-  - Produktionsgrösse
-  - Zusätzliche Zwischentotale bei Preisberechnungen in Template verwendbar
-  - Neues Template a4-quer-1 (beta)
-  - Auto-Scaling im Previewbereich
-  - Intro-Screen mit Kurzanleitung
-  - Abschliessen/zur Bearbeitung öffnen
-  - PDF-Generierung und Anzeige vom Server her
-  - Mail-Funktion
-  - Freeform-Vorlage mit WYSIWYG-Editor inkl. entsprechendem Handling im bestehenden applikatorischen Umfeld
-  - BK pro Werbemittel
-  - Insertionsschluss: Uhrzeit
-  - Ausgabentyp wird geführt (GA, Normalauflage etc.)
-  - Erweiterte Funktionalität, wenn Tool eingebettet wird (reduzierte Funktionalität, nicht empfohlen)
-
-
-Anpassungen:
-
-Allgemein:
-  - Neuste Frameworks
-  - Anpassungen Login 
-  - div. Bereinigungen
-  
-CRMtel:
-  - Sichtbarkeit von Aufträgen nicht mehr auf Mitarbeiter, sondern objektbezogen
-
-Offert- &amp; Auftrags-Tool:
-  - E-Mail-Preferences erweitert
-  - Templates quer: Abstand zwischen Titelinfo und erstem Item eliminiert
-  - Bei Werbemitteln mit mehreren Dimensionen Disanz1 &amp; Disanz2 -> Abgleich Offerte erst ausführen, wenn beide Werte eingegeben wurden
-  - Reihenfolge- &amp; Textanpassungen bei DropDown 'Preisposition -> Typ'
-  - Instanzerkennung neu auch auf Teilen des Applikationspfades möglich (statt nur auf Host)
-  - Wenn nur eine Unterrubrik vorhanden, so wird diese bei einem Wechsel der Rubrik automatisch ausgewählt
-  - Anpassung PDF-Dateinamen-Erzeugung: Gross-Kleinschrift wie durch den Benutzer eingegeben
-  - Verwendung des Begriffs 'Objekt' statt 'Titel' in GUI
-  - Auswahlmöglichkeit "keine" bei Farbigkeit (für Medien ohne Farbigkeit)
-  - OnClick-Save&amp;Finalize bei previewloser Integration in Drittapplikationen
-  - Templates a4-quer-1, a4-hoch-2
-  - MM-Tarif: GUI-Elemente Dismenge1 und Dismenge2 auch dann verfügbar, wenn amasys noch nicht rechnen kann
-  - Zusatzpreispositionen: ergänzt mit Typ 4 (fester Wert je Objekt)
-  - Umbau Template-Engine
-  - Encodierungsproblem behoben (Transfer mit amasys)
-  - Laden von Offerten verbessert
-  - Print-Generator verbessert (Ausrichtung wird korrekt weitergegeben)
-  - Action-Buttons angepasst
-  - Datenstruktur erweitert (versch. E-Mail-Adressen und Agentur)
-  - SnackBar wird nach 10s automatisch geschlossen
-  - kein Titel-Popup, wenn Titel fehlt aber hidePreview=true ist
-  - OpportunityID kann empfangen und in die amasys-Datenstruktur überführt werden
-  - Erweiterungen Daten-JSON
-  - Anpassung Vorlagenauswahl, keine Transformation für freeform Templates
-  - Seitenumbruch bei mehrseitigen freeform Templates korrigiert
-  - Freeform-Vorlage: keine Aktualisierung auf amasys bei Änderungen des Sujets/Dokumentenbezeichnung
-  - Vereinfachungen im GUI/UX
-  - kleine Bugfixes
-
---------------------------- letzter Release --------------------
-
---------------------------- älter --------------------
-
-    </source>
-        <target state="new">    
-8.0.2.web.6 (2018-03-19/RPS)
-
-Software-Voraussetzung (minimal): 
-Backoffice: 
-     Basis: faros Release 8.0, Patch 1 mit Zusatzprogramm
-   Servlet: RESTService-&lt;Instanz>-LP (neu)
-
-
-Installationsvoraussetzung:
-Servlet:    Benennung gemäss Namenskonvention: RESTService-&lt;Instanz>-LP, wobei Instanz = Kundenkürzel - Art der DB 
-=> Bsp: edp-prod
-
-
-Hinweise zu den Browsern:
-- Empfehlung edp: Google Chrome (Begründung: überlegene Performance, Druckfunktion ausgereift)
-- Mit Einschränkungen möglich: Mozilla Firefox ab Version 54
-  (bekannte Einschränkungen: Druckfunktion untauglich, Performance zumindest bis Version 54
-  deutlich schlechter als Google Chrome; tw. optische Beeinträchtigungen;
-  ab Version 55 brauchbare Performance und optisch vergleichbar mit Google Chrome)
-
-
-Hinweise zur Software:
-
-
-Neu:
-Allgemein:
-  - iURL-Unterstützung bei Instanz im Login
-
-CRMtel: 
-  - Agentureinbindung
-  - Instanz von Login durch die ganze App
-
-Offert- &amp; Auftrags-Tool:
-  - Default für Mail-Text
-  - Default für werbemittelFarbanz
-  - Sujetnr ist - wenn erlaubt - pro Werbemittel änderbar
-  - Default für buchungsartErscheinung
-  - Zurück an den oberen Rand scrollen (Button links unten)
-  - Auftragsdetails mit möglicher Direktverlinkung aus Drittapps
-  - Unterstützung von Werbeformaten, die nach Anzahl funktionieren (Basis)
-  - Neue Felder: VermittlerID, Vermittlername und KontaktID und Kontaktname
-  - Neuer PDF-Renderer
-  - Möglichkeit, Seitenumbruch nach Werbemittel zu forcieren
-  - Internet-Zuschläge können erfasst werden
-  - Objekt-Autocompleter
-  - Auto-Cleanup bei Preispositionen wenn Werbemittel geändert werden
-  - non-blocking-Warnung bei unvollständigen Daten für Preisberechnung
-  - Automatische Assistenz beim Neuberechnen und Aufräumen möglicherweise ungültiger Kombinationen
-  - DeLuxe-Scroll-Funktion auch für aktuelle Firefox-Versionen
-  - Erweiterungen beim Aufruf aus Dritt-Applikationen
-  - Querformat-Templates
-  - Farbigkeit zur Auswahl
-  - Abschlussintegration
-  - Produktionsgrösse
-  - Zusätzliche Zwischentotale bei Preisberechnungen in Template verwendbar
-  - Neues Template a4-quer-1 (beta)
-  - Auto-Scaling im Previewbereich
-  - Intro-Screen mit Kurzanleitung
-  - Abschliessen/zur Bearbeitung öffnen
-  - PDF-Generierung und Anzeige vom Server her
-  - Mail-Funktion
-  - Freeform-Vorlage mit WYSIWYG-Editor inkl. entsprechendem Handling im bestehenden applikatorischen Umfeld
-  - BK pro Werbemittel
-  - Insertionsschluss: Uhrzeit
-  - Ausgabentyp wird geführt (GA, Normalauflage etc.)
-  - Erweiterte Funktionalität, wenn Tool eingebettet wird (reduzierte Funktionalität, nicht empfohlen)
-
-
-Anpassungen:
-
-Allgemein:
-  - Neuste Frameworks
-  - Anpassungen Login 
-  - div. Bereinigungen
-  
-CRMtel:
-  - Sichtbarkeit von Aufträgen nicht mehr auf Mitarbeiter, sondern objektbezogen
-
-Offert- &amp; Auftrags-Tool:
-  - E-Mail-Preferences erweitert
-  - Templates quer: Abstand zwischen Titelinfo und erstem Item eliminiert
-  - Bei Werbemitteln mit mehreren Dimensionen Disanz1 &amp; Disanz2 -> Abgleich Offerte erst ausführen, wenn beide Werte eingegeben wurden
-  - Reihenfolge- &amp; Textanpassungen bei DropDown 'Preisposition -> Typ'
-  - Instanzerkennung neu auch auf Teilen des Applikationspfades möglich (statt nur auf Host)
-  - Wenn nur eine Unterrubrik vorhanden, so wird diese bei einem Wechsel der Rubrik automatisch ausgewählt
-  - Anpassung PDF-Dateinamen-Erzeugung: Gross-Kleinschrift wie durch den Benutzer eingegeben
-  - Verwendung des Begriffs 'Objekt' statt 'Titel' in GUI
-  - Auswahlmöglichkeit "keine" bei Farbigkeit (für Medien ohne Farbigkeit)
-  - OnClick-Save&amp;Finalize bei previewloser Integration in Drittapplikationen
-  - Templates a4-quer-1, a4-hoch-2
-  - MM-Tarif: GUI-Elemente Dismenge1 und Dismenge2 auch dann verfügbar, wenn amasys noch nicht rechnen kann
-  - Zusatzpreispositionen: ergänzt mit Typ 4 (fester Wert je Objekt)
-  - Umbau Template-Engine
-  - Encodierungsproblem behoben (Transfer mit amasys)
-  - Laden von Offerten verbessert
-  - Print-Generator verbessert (Ausrichtung wird korrekt weitergegeben)
-  - Action-Buttons angepasst
-  - Datenstruktur erweitert (versch. E-Mail-Adressen und Agentur)
-  - SnackBar wird nach 10s automatisch geschlossen
-  - kein Titel-Popup, wenn Titel fehlt aber hidePreview=true ist
-  - OpportunityID kann empfangen und in die amasys-Datenstruktur überführt werden
-  - Erweiterungen Daten-JSON
-  - Anpassung Vorlagenauswahl, keine Transformation für freeform Templates
-  - Seitenumbruch bei mehrseitigen freeform Templates korrigiert
-  - Freeform-Vorlage: keine Aktualisierung auf amasys bei Änderungen des Sujets/Dokumentenbezeichnung
-  - Vereinfachungen im GUI/UX
-  - kleine Bugfixes
-
---------------------------- letzter Release --------------------
-
---------------------------- älter --------------------
-
-    </target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/tools/shared/dialogs/programminformation/programminformation.component.ts</context>
-          <context context-type="linenumber">24</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="aboutFrameworks" datatype="html">
-        <source>Software verwendet die folgenden Bibliotheken &amp; Frameworks, deren Copyright wie folgt geregelt ist</source>
-        <target state="new">Software verwendet die folgenden Bibliotheken &amp; Frameworks, deren Copyright wie folgt geregelt ist</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/tools/shared/dialogs/programminformation/programminformation.component.ts</context>
-          <context context-type="linenumber">143</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="dataSet" datatype="html">
         <source>Datensatz</source>
         <target state="new">Datensatz</target>
@@ -355,7 +97,7 @@ Offert- &amp; Auftrags-Tool:
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/tools/crm/shared/components/mainpanelhead/mainpanelhead.component.ts</context>
-          <context context-type="linenumber">255</context>
+          <context context-type="linenumber">270</context>
         </context-group>
       </trans-unit>
       <trans-unit id="clientSearchBoxPlaceholder" datatype="html">
@@ -478,6 +220,10 @@ Offert- &amp; Auftrags-Tool:
           <context context-type="linenumber">54</context>
         </context-group>
         <context-group purpose="location">
+          <context context-type="sourcefile">app/tools/crm/shared/components/mainpanelhead/mainpanelhead.component.ts</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+        <context-group purpose="location">
           <context context-type="sourcefile">app/tools/crm/shared/components/auftragdetail/auftragdetail.component.ts</context>
           <context context-type="linenumber">76</context>
         </context-group>
@@ -552,6 +298,14 @@ Offert- &amp; Auftrags-Tool:
         <context-group purpose="location">
           <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-quer-5/a4-quer-5.component.ts</context>
           <context context-type="linenumber">19</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-quer-6/a4-quer-6.component.ts</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-quer-6/a4-quer-6.component.ts</context>
+          <context context-type="linenumber">34</context>
         </context-group>
       </trans-unit>
       <trans-unit id="clientNumberPlaceholder" datatype="html">
@@ -691,7 +445,7 @@ Offert- &amp; Auftrags-Tool:
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/tools/crm/shared/components/kundenfacts/kundenfacts.component.ts</context>
-          <context context-type="linenumber">37</context>
+          <context context-type="linenumber">47</context>
         </context-group>
       </trans-unit>
       <trans-unit id="place" datatype="html">
@@ -707,7 +461,7 @@ Offert- &amp; Auftrags-Tool:
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/tools/crm/shared/components/kundenfacts/kundenfacts.component.ts</context>
-          <context context-type="linenumber">42</context>
+          <context context-type="linenumber">52</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-quer-1/a4-quer-1.component.ts</context>
@@ -729,6 +483,10 @@ Offert- &amp; Auftrags-Tool:
           <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-quer-5/a4-quer-5.component.ts</context>
           <context context-type="linenumber">25</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-quer-6/a4-quer-6.component.ts</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="phoneBusiness" datatype="html">
         <source>Telefon Geschäft</source>
@@ -739,7 +497,7 @@ Offert- &amp; Auftrags-Tool:
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/tools/crm/shared/components/kundenfacts/kundenfacts.component.ts</context>
-          <context context-type="linenumber">57</context>
+          <context context-type="linenumber">70</context>
         </context-group>
       </trans-unit>
       <trans-unit id="directCall" datatype="html">
@@ -759,7 +517,7 @@ Offert- &amp; Auftrags-Tool:
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/tools/crm/shared/components/kundenfacts/kundenfacts.component.ts</context>
-          <context context-type="linenumber">67</context>
+          <context context-type="linenumber">86</context>
         </context-group>
       </trans-unit>
       <trans-unit id="mail" datatype="html">
@@ -789,7 +547,6 @@ Offert- &amp; Auftrags-Tool:
           <context context-type="sourcefile">app/tools/crm/crmplus/shared/components/art/art.component.ts</context>
           <context context-type="linenumber">3</context>
         </context-group>
-        <note from="description" priority="1">Welche Art von...</note>
       </trans-unit>
       <trans-unit id="feature1Placeholder" datatype="html">
         <source>Merkmal1</source>
@@ -857,6 +614,10 @@ Offert- &amp; Auftrags-Tool:
         <context-group purpose="location">
           <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-quer-5/a4-quer-5.component.ts</context>
           <context context-type="linenumber">33</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-quer-6/a4-quer-6.component.ts</context>
+          <context context-type="linenumber">36</context>
         </context-group>
       </trans-unit>
       <trans-unit id="time" datatype="html">
@@ -952,11 +713,11 @@ Offert- &amp; Auftrags-Tool:
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/tools/crm/shared/components/mainpanelhead/mainpanelhead.component.ts</context>
-          <context context-type="linenumber">255</context>
+          <context context-type="linenumber">270</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/tools/crm/shared/components/mainpanelhead/mainpanelhead.component.ts</context>
-          <context context-type="linenumber">329</context>
+          <context context-type="linenumber">357</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/tools/crm/shared/components/allgemeineinfos/allgemeineinfos.component.ts</context>
@@ -972,7 +733,7 @@ Offert- &amp; Auftrags-Tool:
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/tools/crm/shared/components/mainpanelhead/mainpanelhead.component.ts</context>
-          <context context-type="linenumber">379</context>
+          <context context-type="linenumber">407</context>
         </context-group>
       </trans-unit>
       <trans-unit id="cancelDateB" datatype="html">
@@ -984,7 +745,7 @@ Offert- &amp; Auftrags-Tool:
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/tools/crm/shared/components/mainpanelhead/mainpanelhead.component.ts</context>
-          <context context-type="linenumber">379</context>
+          <context context-type="linenumber">407</context>
         </context-group>
       </trans-unit>
       <trans-unit id="dateCanceled" datatype="html">
@@ -996,7 +757,7 @@ Offert- &amp; Auftrags-Tool:
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/tools/crm/shared/components/mainpanelhead/mainpanelhead.component.ts</context>
-          <context context-type="linenumber">386</context>
+          <context context-type="linenumber">414</context>
         </context-group>
       </trans-unit>
       <trans-unit id="agencySelection" datatype="html">
@@ -1080,15 +841,15 @@ Offert- &amp; Auftrags-Tool:
         <target state="new">Neue Zeit</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/tools/crm/shared/components/mainpanelhead/mainpanelhead.component.ts</context>
-          <context context-type="linenumber">237</context>
+          <context context-type="linenumber">253</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/tools/crm/shared/components/mainpanelhead/mainpanelhead.component.ts</context>
-          <context context-type="linenumber">240</context>
+          <context context-type="linenumber">256</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/tools/crm/shared/components/mainpanelhead/mainpanelhead.component.ts</context>
-          <context context-type="linenumber">243</context>
+          <context context-type="linenumber">259</context>
         </context-group>
       </trans-unit>
       <trans-unit id="at" datatype="html">
@@ -1096,7 +857,7 @@ Offert- &amp; Auftrags-Tool:
         <target state="new">am</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/tools/crm/shared/components/mainpanelhead/mainpanelhead.component.ts</context>
-          <context context-type="linenumber">255</context>
+          <context context-type="linenumber">270</context>
         </context-group>
       </trans-unit>
       <trans-unit id="save" datatype="html">
@@ -1104,7 +865,7 @@ Offert- &amp; Auftrags-Tool:
         <target state="new">Speichern</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/tools/crm/shared/components/mainpanelhead/mainpanelhead.component.ts</context>
-          <context context-type="linenumber">367</context>
+          <context context-type="linenumber">395</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/tools/crm/shared/components/mainpaneledit/mainpaneledit.component.ts</context>
@@ -1120,7 +881,7 @@ Offert- &amp; Auftrags-Tool:
         <target state="new">Offerte</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/tools/crm/shared/components/mainpanelhead/mainpanelhead.component.ts</context>
-          <context context-type="linenumber">368</context>
+          <context context-type="linenumber">396</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/tools/crm/shared/components/mainpanelnew/mainpanelnew.component.ts</context>
@@ -1132,7 +893,7 @@ Offert- &amp; Auftrags-Tool:
         <target state="new">Auftrag-XLSX</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/tools/crm/shared/components/mainpanelhead/mainpanelhead.component.ts</context>
-          <context context-type="linenumber">369</context>
+          <context context-type="linenumber">397</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/tools/crm/shared/components/mainpanelnew/mainpanelnew.component.ts</context>
@@ -1245,6 +1006,10 @@ Offert- &amp; Auftrags-Tool:
         <context-group purpose="location">
           <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-hoch-3/a4-hoch-3.component.ts</context>
           <context context-type="linenumber">63</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-hoch-4/a4-hoch-4.component.ts</context>
+          <context context-type="linenumber">103</context>
         </context-group>
       </trans-unit>
       <trans-unit id="urubric" datatype="html">
@@ -1389,7 +1154,7 @@ Offert- &amp; Auftrags-Tool:
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/tools/crm/shared/components/kundenfacts/kundenfacts.component.ts</context>
-          <context context-type="linenumber">27</context>
+          <context context-type="linenumber">37</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/tools/crm/crmplus/shared/components/auftragdetail/auftragdetail.component.ts</context>
@@ -1474,6 +1239,10 @@ Offert- &amp; Auftrags-Tool:
         <context-group purpose="location">
           <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-hoch-3/a4-hoch-3.component.ts</context>
           <context context-type="linenumber">110</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-hoch-4/a4-hoch-4.component.ts</context>
+          <context context-type="linenumber">156</context>
         </context-group>
       </trans-unit>
       <trans-unit id="gebietsverFach" datatype="html">
@@ -1679,6 +1448,10 @@ Offert- &amp; Auftrags-Tool:
           <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-quer-5/a4-quer-5.component.ts</context>
           <context context-type="linenumber">62</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-quer-6/a4-quer-6.component.ts</context>
+          <context context-type="linenumber">78</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="com1" datatype="html">
         <source>Kom1</source>
@@ -1787,6 +1560,10 @@ Offert- &amp; Auftrags-Tool:
           <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-quer-5/a4-quer-5.component.ts</context>
           <context context-type="linenumber">60</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-quer-6/a4-quer-6.component.ts</context>
+          <context context-type="linenumber">77</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="color" datatype="html">
         <source>Farbe</source>
@@ -1835,6 +1612,14 @@ Offert- &amp; Auftrags-Tool:
           <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-hoch-3/a4-hoch-3.component.ts</context>
           <context context-type="linenumber">134</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-hoch-4/a4-hoch-4.component.ts</context>
+          <context context-type="linenumber">137</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-hoch-4/a4-hoch-4.component.ts</context>
+          <context context-type="linenumber">180</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="bill" datatype="html">
         <source>Rechnung</source>
@@ -1853,7 +1638,7 @@ Offert- &amp; Auftrags-Tool:
         <target state="new">Betrag Gesamt</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/tools/crm/shared/components/infosauftraege/infosauftraege.component.ts</context>
-          <context context-type="linenumber">71</context>
+          <context context-type="linenumber">72</context>
         </context-group>
       </trans-unit>
       <trans-unit id="changeClient" datatype="html">
@@ -1969,7 +1754,7 @@ Offert- &amp; Auftrags-Tool:
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/tools/crm/shared/components/kundenfacts/kundenfacts.component.ts</context>
-          <context context-type="linenumber">52</context>
+          <context context-type="linenumber">62</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-quer-1/a4-quer-1.component.ts</context>
@@ -1991,13 +1776,17 @@ Offert- &amp; Auftrags-Tool:
           <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-quer-5/a4-quer-5.component.ts</context>
           <context context-type="linenumber">27</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-quer-6/a4-quer-6.component.ts</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="name" datatype="html">
         <source>Name</source>
         <target state="new">Name</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/tools/crm/shared/components/kundenfacts/kundenfacts.component.ts</context>
-          <context context-type="linenumber">22</context>
+          <context context-type="linenumber">32</context>
         </context-group>
       </trans-unit>
       <trans-unit id="additionFirmOneTwo" datatype="html">
@@ -2005,7 +1794,7 @@ Offert- &amp; Auftrags-Tool:
         <target state="new">Zusatzfirma 1/2: </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/tools/crm/shared/components/kundenfacts/kundenfacts.component.ts</context>
-          <context context-type="linenumber">32</context>
+          <context context-type="linenumber">42</context>
         </context-group>
       </trans-unit>
       <trans-unit id="country" datatype="html">
@@ -2013,7 +1802,7 @@ Offert- &amp; Auftrags-Tool:
         <target state="new">Land</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/tools/crm/shared/components/kundenfacts/kundenfacts.component.ts</context>
-          <context context-type="linenumber">47</context>
+          <context context-type="linenumber">57</context>
         </context-group>
       </trans-unit>
       <trans-unit id="phonePrivate" datatype="html">
@@ -2021,7 +1810,7 @@ Offert- &amp; Auftrags-Tool:
         <target state="new">Telefon Privat</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/tools/crm/shared/components/kundenfacts/kundenfacts.component.ts</context>
-          <context context-type="linenumber">62</context>
+          <context context-type="linenumber">78</context>
         </context-group>
       </trans-unit>
       <trans-unit id="email" datatype="html">
@@ -2029,7 +1818,7 @@ Offert- &amp; Auftrags-Tool:
         <target state="new">Email</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/tools/crm/shared/components/kundenfacts/kundenfacts.component.ts</context>
-          <context context-type="linenumber">72</context>
+          <context context-type="linenumber">94</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-quer-1/a4-quer-1.component.ts</context>
@@ -2051,13 +1840,17 @@ Offert- &amp; Auftrags-Tool:
           <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-quer-5/a4-quer-5.component.ts</context>
           <context context-type="linenumber">21</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-quer-6/a4-quer-6.component.ts</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="newDate" datatype="html">
         <source>Neuer Termin</source>
         <target state="new">Neuer Termin</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/tools/crm/shared/components/kundenfacts/kundenfacts.component.ts</context>
-          <context context-type="linenumber">93</context>
+          <context context-type="linenumber">118</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/tools/crm/crmplus/shared/components/cockpitnexttermin/cockpitnexttermin.component.ts</context>
@@ -2069,7 +1862,7 @@ Offert- &amp; Auftrags-Tool:
         <target state="new">Neue Offerte</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/tools/crm/shared/components/kundenfacts/kundenfacts.component.ts</context>
-          <context context-type="linenumber">111</context>
+          <context context-type="linenumber">136</context>
         </context-group>
       </trans-unit>
       <trans-unit id="newAddress" datatype="html">
@@ -2077,7 +1870,7 @@ Offert- &amp; Auftrags-Tool:
         <target state="new">Verkaufsausgabe</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/tools/crm/shared/components/kundenfacts/kundenfacts.component.ts</context>
-          <context context-type="linenumber">140</context>
+          <context context-type="linenumber">165</context>
         </context-group>
       </trans-unit>
       <trans-unit id="newSub" datatype="html">
@@ -2085,11 +1878,11 @@ Offert- &amp; Auftrags-Tool:
         <target state="new">Werbeauftragsliste</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/tools/crm/shared/components/kundenfacts/kundenfacts.component.ts</context>
-          <context context-type="linenumber">157</context>
+          <context context-type="linenumber">182</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/tools/crm/shared/components/kundenfacts/kundenfacts.component.ts</context>
-          <context context-type="linenumber">172</context>
+          <context context-type="linenumber">197</context>
         </context-group>
       </trans-unit>
       <trans-unit id="PA" datatype="html">
@@ -2125,6 +1918,10 @@ Offert- &amp; Auftrags-Tool:
           <context context-type="linenumber">49</context>
         </context-group>
         <context-group purpose="location">
+          <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-hoch-4/a4-hoch-4.component.ts</context>
+          <context context-type="linenumber">84</context>
+        </context-group>
+        <context-group purpose="location">
           <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-quer-1/a4-quer-1.component.ts</context>
           <context context-type="linenumber">40</context>
         </context-group>
@@ -2143,6 +1940,10 @@ Offert- &amp; Auftrags-Tool:
         <context-group purpose="location">
           <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-quer-5/a4-quer-5.component.ts</context>
           <context context-type="linenumber">38</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-quer-6/a4-quer-6.component.ts</context>
+          <context context-type="linenumber">40</context>
         </context-group>
       </trans-unit>
       <trans-unit id="objectsPlaceholder" datatype="html">
@@ -2480,7 +2281,6 @@ Offert- &amp; Auftrags-Tool:
           <context context-type="sourcefile">app/tools/offerte/offerte-show/offerte-show.component.ts</context>
           <context context-type="linenumber">9</context>
         </context-group>
-        <note from="description" priority="1">Sidenavigation</note>
       </trans-unit>
       <trans-unit id="searchDetail" datatype="html">
         <source>Suchkriterien</source>
@@ -3132,6 +2932,7 @@ Offert- &amp; Auftrags-Tool:
       <trans-unit id="commaBlackWhite" datatype="html">
         <source>s/w</source>
         <target state="new">s/w</target>
+        <note from="description" priority="1">Schwarz-Weiss</note>
         <context-group purpose="location">
           <context context-type="sourcefile">app/tools/offerte/offerte-show/offerte-show.component.ts</context>
           <context context-type="linenumber">535</context>
@@ -3143,6 +2944,10 @@ Offert- &amp; Auftrags-Tool:
         <context-group purpose="location">
           <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-hoch-3/a4-hoch-3.component.ts</context>
           <context context-type="linenumber">63</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-hoch-4/a4-hoch-4.component.ts</context>
+          <context context-type="linenumber">108</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-quer-1/a4-quer-1.component.ts</context>
@@ -3164,7 +2969,10 @@ Offert- &amp; Auftrags-Tool:
           <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-quer-5/a4-quer-5.component.ts</context>
           <context context-type="linenumber">94</context>
         </context-group>
-        <note from="description" priority="1">Schwarz-Weiss</note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-quer-6/a4-quer-6.component.ts</context>
+          <context context-type="linenumber">133</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="commaColored" datatype="html">
         <source>farbig</source>
@@ -3180,6 +2988,10 @@ Offert- &amp; Auftrags-Tool:
         <context-group purpose="location">
           <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-hoch-3/a4-hoch-3.component.ts</context>
           <context context-type="linenumber">63</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-hoch-4/a4-hoch-4.component.ts</context>
+          <context context-type="linenumber">109</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-quer-1/a4-quer-1.component.ts</context>
@@ -3200,6 +3012,10 @@ Offert- &amp; Auftrags-Tool:
         <context-group purpose="location">
           <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-quer-5/a4-quer-5.component.ts</context>
           <context context-type="linenumber">96</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-quer-6/a4-quer-6.component.ts</context>
+          <context context-type="linenumber">135</context>
         </context-group>
       </trans-unit>
       <trans-unit id="internetAddition" datatype="html">
@@ -3436,6 +3252,10 @@ Offert- &amp; Auftrags-Tool:
           <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-hoch-1/a4-hoch-1.component.ts</context>
           <context context-type="linenumber">72</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-hoch-4/a4-hoch-4.component.ts</context>
+          <context context-type="linenumber">118</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="announcementEnd" datatype="html">
         <source>Anzeigenschluss</source>
@@ -3455,6 +3275,14 @@ Offert- &amp; Auftrags-Tool:
         <context-group purpose="location">
           <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-hoch-3/a4-hoch-3.component.ts</context>
           <context context-type="linenumber">127</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-hoch-4/a4-hoch-4.component.ts</context>
+          <context context-type="linenumber">166</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-hoch-4/a4-hoch-4.component.ts</context>
+          <context context-type="linenumber">173</context>
         </context-group>
       </trans-unit>
       <trans-unit id="tillTimeA" datatype="html">
@@ -3476,6 +3304,14 @@ Offert- &amp; Auftrags-Tool:
           <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-hoch-3/a4-hoch-3.component.ts</context>
           <context context-type="linenumber">129</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-hoch-4/a4-hoch-4.component.ts</context>
+          <context context-type="linenumber">168</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-hoch-4/a4-hoch-4.component.ts</context>
+          <context context-type="linenumber">175</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="tillTimeB" datatype="html">
         <source>Uhr</source>
@@ -3496,6 +3332,14 @@ Offert- &amp; Auftrags-Tool:
           <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-hoch-3/a4-hoch-3.component.ts</context>
           <context context-type="linenumber">129</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-hoch-4/a4-hoch-4.component.ts</context>
+          <context context-type="linenumber">168</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-hoch-4/a4-hoch-4.component.ts</context>
+          <context context-type="linenumber">175</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="for" datatype="html">
         <source>für</source>
@@ -3508,7 +3352,6 @@ Offert- &amp; Auftrags-Tool:
           <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-hoch-2/a4-hoch-2.component.ts</context>
           <context context-type="linenumber">131</context>
         </context-group>
-        <note from="description" priority="1">Anzeigeschluss bis heute FÜr alle Bücher</note>
       </trans-unit>
       <trans-unit id="sumPrice" datatype="html">
         <source>Gesamtpreis</source>
@@ -3537,6 +3380,10 @@ Offert- &amp; Auftrags-Tool:
           <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-hoch-3/a4-hoch-3.component.ts</context>
           <context context-type="linenumber">154</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-hoch-4/a4-hoch-4.component.ts</context>
+          <context context-type="linenumber">213</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="inPlaceOf" datatype="html">
         <source>anstatt</source>
@@ -3548,6 +3395,10 @@ Offert- &amp; Auftrags-Tool:
         <context-group purpose="location">
           <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-hoch-3/a4-hoch-3.component.ts</context>
           <context context-type="linenumber">155</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-hoch-4/a4-hoch-4.component.ts</context>
+          <context context-type="linenumber">214</context>
         </context-group>
       </trans-unit>
       <trans-unit id="clarification" datatype="html">
@@ -3564,6 +3415,10 @@ Offert- &amp; Auftrags-Tool:
         <context-group purpose="location">
           <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-hoch-3/a4-hoch-3.component.ts</context>
           <context context-type="linenumber">158</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-hoch-4/a4-hoch-4.component.ts</context>
+          <context context-type="linenumber">216</context>
         </context-group>
       </trans-unit>
       <trans-unit id="special" datatype="html">
@@ -3593,6 +3448,10 @@ Offert- &amp; Auftrags-Tool:
           <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-hoch-3/a4-hoch-3.component.ts</context>
           <context context-type="linenumber">177</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-hoch-4/a4-hoch-4.component.ts</context>
+          <context context-type="linenumber">235</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="urubricFull" datatype="html">
         <source>Unterrubrik</source>
@@ -3604,6 +3463,10 @@ Offert- &amp; Auftrags-Tool:
         <context-group purpose="location">
           <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-hoch-3/a4-hoch-3.component.ts</context>
           <context context-type="linenumber">63</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-hoch-4/a4-hoch-4.component.ts</context>
+          <context context-type="linenumber">103</context>
         </context-group>
       </trans-unit>
       <trans-unit id="appearenceFrequency" datatype="html">
@@ -3621,6 +3484,7 @@ Offert- &amp; Auftrags-Tool:
       <trans-unit id="productionSize" datatype="html">
         <source>Produktionsgrösse (B x H)</source>
         <target state="new">Produktionsgrösse (B x H)</target>
+        <note from="description" priority="1">(Breite x Höhe)</note>
         <context-group purpose="location">
           <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-hoch-2/a4-hoch-2.component.ts</context>
           <context context-type="linenumber">80</context>
@@ -3649,7 +3513,10 @@ Offert- &amp; Auftrags-Tool:
           <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-quer-5/a4-quer-5.component.ts</context>
           <context context-type="linenumber">101</context>
         </context-group>
-        <note from="description" priority="1">(Breite x Höhe)</note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-quer-6/a4-quer-6.component.ts</context>
+          <context context-type="linenumber">142</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="businessconditions" datatype="html">
         <source>Daten-, Tarif- und Grössenänderungen vorbehalten. Es gelten die allgemeinen Geschäftsbedingungen.</source>
@@ -3670,6 +3537,10 @@ Offert- &amp; Auftrags-Tool:
           <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-hoch-3/a4-hoch-3.component.ts</context>
           <context context-type="linenumber">74</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-hoch-4/a4-hoch-4.component.ts</context>
+          <context context-type="linenumber">122</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="performance" datatype="html">
         <source>Leistung</source>
@@ -3677,6 +3548,10 @@ Offert- &amp; Auftrags-Tool:
         <context-group purpose="location">
           <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-hoch-3/a4-hoch-3.component.ts</context>
           <context context-type="linenumber">98</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-hoch-4/a4-hoch-4.component.ts</context>
+          <context context-type="linenumber">144</context>
         </context-group>
       </trans-unit>
       <trans-unit id="acceptOffer" datatype="html">
@@ -3686,6 +3561,10 @@ Offert- &amp; Auftrags-Tool:
           <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-hoch-3/a4-hoch-3.component.ts</context>
           <context context-type="linenumber">187</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-hoch-4/a4-hoch-4.component.ts</context>
+          <context context-type="linenumber">245</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="signature" datatype="html">
         <source>Unterschrift</source>
@@ -3693,6 +3572,38 @@ Offert- &amp; Auftrags-Tool:
         <context-group purpose="location">
           <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-hoch-3/a4-hoch-3.component.ts</context>
           <context context-type="linenumber">191</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="kunde" datatype="html">
+        <source>Kunde</source>
+        <target state="new">Kunde</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-hoch-4/a4-hoch-4.component.ts</context>
+          <context context-type="linenumber">79</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="titel" datatype="html">
+        <source>Titel<x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span>"/> <x id="INTERPOLATION" equiv-text="{{i+1}}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/>:</source>
+        <target state="new">Titel<x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span>"/> <x id="INTERPOLATION" equiv-text="{{i+1}}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/>:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-hoch-4/a4-hoch-4.component.ts</context>
+          <context context-type="linenumber">92</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="kampagne" datatype="html">
+        <source>Kampagne</source>
+        <target state="new">Kampagne</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-hoch-4/a4-hoch-4.component.ts</context>
+          <context context-type="linenumber">96</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="farben" datatype="html">
+        <source>Farben</source>
+        <target state="new">Farben</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-hoch-4/a4-hoch-4.component.ts</context>
+          <context context-type="linenumber">106</context>
         </context-group>
       </trans-unit>
       <trans-unit id="clientNumber2" datatype="html">
@@ -3718,6 +3629,10 @@ Offert- &amp; Auftrags-Tool:
           <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-quer-5/a4-quer-5.component.ts</context>
           <context context-type="linenumber">12</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-quer-6/a4-quer-6.component.ts</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="yourContact" datatype="html">
         <source>Ihr Kontakt</source>
@@ -3741,6 +3656,10 @@ Offert- &amp; Auftrags-Tool:
         <context-group purpose="location">
           <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-quer-5/a4-quer-5.component.ts</context>
           <context context-type="linenumber">14</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-quer-6/a4-quer-6.component.ts</context>
+          <context context-type="linenumber">17</context>
         </context-group>
       </trans-unit>
       <trans-unit id="costPerEditionA" datatype="html">
@@ -3786,10 +3705,6 @@ Offert- &amp; Auftrags-Tool:
           <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-quer-4/a4-quer-4.component.ts</context>
           <context context-type="linenumber">65</context>
         </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-quer-5/a4-quer-5.component.ts</context>
-          <context context-type="linenumber">59</context>
-        </context-group>
       </trans-unit>
       <trans-unit id="nrOfEditionsB" datatype="html">
         <source>Ersch.</source>
@@ -3811,8 +3726,8 @@ Offert- &amp; Auftrags-Tool:
           <context context-type="linenumber">67</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-quer-5/a4-quer-5.component.ts</context>
-          <context context-type="linenumber">61</context>
+          <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-quer-6/a4-quer-6.component.ts</context>
+          <context context-type="linenumber">77</context>
         </context-group>
       </trans-unit>
       <trans-unit id="totalPreTax" datatype="html">
@@ -4010,6 +3925,10 @@ Offert- &amp; Auftrags-Tool:
           <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-quer-5/a4-quer-5.component.ts</context>
           <context context-type="linenumber">63</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-quer-6/a4-quer-6.component.ts</context>
+          <context context-type="linenumber">78</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="yourInvestment" datatype="html">
         <source>Ihre Investition</source>
@@ -4046,6 +3965,10 @@ Offert- &amp; Auftrags-Tool:
           <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-quer-5/a4-quer-5.component.ts</context>
           <context context-type="linenumber">139</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-quer-6/a4-quer-6.component.ts</context>
+          <context context-type="linenumber">245</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="offerAndOrder" datatype="html">
         <source>Offert- &amp; Auftrags-Tool</source>
@@ -4053,6 +3976,102 @@ Offert- &amp; Auftrags-Tool:
         <context-group purpose="location">
           <context context-type="sourcefile">app/tools/shared/components/headersomedia/headersomedia.component.ts</context>
           <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="title" datatype="html">
+        <source>Titel</source>
+        <target state="new">Titel</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-quer-6/a4-quer-6.component.ts</context>
+          <context context-type="linenumber">58</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="gp" datatype="html">
+        <source>GP</source>
+        <target state="new">GP</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-quer-6/a4-quer-6.component.ts</context>
+          <context context-type="linenumber">60</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mm" datatype="html">
+        <source>mm</source>
+        <target state="new">mm</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-quer-6/a4-quer-6.component.ts</context>
+          <context context-type="linenumber">60</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="plazierung" datatype="html">
+        <source>Plazierung </source>
+        <target state="new">Plazierung </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-quer-6/a4-quer-6.component.ts</context>
+          <context context-type="linenumber">62</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="zuschlag" datatype="html">
+        <source>Zuschlag</source>
+        <target state="new">Zuschlag</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-quer-6/a4-quer-6.component.ts</context>
+          <context context-type="linenumber">62</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="andockrab" datatype="html">
+        <source>AdockRab </source>
+        <target state="new">AdockRab </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-quer-6/a4-quer-6.component.ts</context>
+          <context context-type="linenumber">63</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="spezrab" datatype="html">
+        <source>SpezRab</source>
+        <target state="new">SpezRab</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-quer-6/a4-quer-6.component.ts</context>
+          <context context-type="linenumber">65</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="rabmerabbet" datatype="html">
+        <source>Rab/MeRab/Bet</source>
+        <target state="new">Rab/MeRab/Bet</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-quer-6/a4-quer-6.component.ts</context>
+          <context context-type="linenumber">67</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bkjup" datatype="html">
+        <source>BK/JUP</source>
+        <target state="new">BK/JUP</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-quer-6/a4-quer-6.component.ts</context>
+          <context context-type="linenumber">70</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ein" datatype="html">
+        <source>Ein</source>
+        <target state="new">Ein</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-quer-6/a4-quer-6.component.ts</context>
+          <context context-type="linenumber">72</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="stecken" datatype="html">
+        <source>stecken</source>
+        <target state="new">stecken</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-quer-6/a4-quer-6.component.ts</context>
+          <context context-type="linenumber">72</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="repro" datatype="html">
+        <source>Repro</source>
+        <target state="new">Repro</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-quer-6/a4-quer-6.component.ts</context>
+          <context context-type="linenumber">74</context>
         </context-group>
       </trans-unit>
     </body>
