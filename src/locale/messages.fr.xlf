@@ -4,7 +4,7 @@
         <body>
           <trans-unit id="login" datatype="html">
             <source>Anmeldung</source>
-            <target state="final">Does it work</target>
+            <target state="new">Does it work</target>
             <context-group purpose="location">
               <context context-type="sourcefile">app/login/login.component.ts</context>
               <context context-type="linenumber">9</context>
@@ -12,7 +12,7 @@
           </trans-unit>
           <trans-unit id="instancePlaceholder" datatype="html">
             <source>Instanz [z.B.: &#x27;VERLAG-prod&#x27; oder iURL]</source>
-            <target state="final">it does</target>
+            <target state="final">!</target>
             <context-group purpose="location">
               <context context-type="sourcefile">app/login/login.component.ts</context>
               <context context-type="linenumber">19</context>
@@ -20,7 +20,7 @@
           </trans-unit>
           <trans-unit id="mandatorPlaceholder" datatype="html">
             <source>Mandant [z.B. &#x27;5&#x27; oder leer f&#xFC;r Default]</source>
-            <target state="new">Mandant [z.B. &#x27;5&#x27; oder leer f&#xFC;r Default]</target>
+            <target state="final">&#x26;</target>
             <context-group purpose="location">
               <context context-type="sourcefile">app/login/login.component.ts</context>
               <context context-type="linenumber">26</context>
@@ -28,7 +28,7 @@
           </trans-unit>
           <trans-unit id="usernamePlaceholder" datatype="html">
             <source>Benutzername</source>
-            <target state="new">Benutzername</target>
+            <target state="final">;</target>
             <context-group purpose="location">
               <context context-type="sourcefile">app/login/login.component.ts</context>
               <context context-type="linenumber">33</context>
@@ -36,7 +36,7 @@
           </trans-unit>
           <trans-unit id="passwordPlaceholder" datatype="html">
             <source>Passwort</source>
-            <target state="new">Passwort</target>
+            <target state="final">?</target>
             <context-group purpose="location">
               <context context-type="sourcefile">app/login/login.component.ts</context>
               <context context-type="linenumber">40</context>
@@ -44,7 +44,7 @@
           </trans-unit>
           <trans-unit id="logon" datatype="html">
             <source>Anmelden</source>
-            <target state="new">Anmelden</target>
+            <target state="final">&#x22;</target>
             <context-group purpose="location">
               <context context-type="sourcefile">app/login/login.component.ts</context>
               <context context-type="linenumber">48</context>
@@ -55,10 +55,7 @@
     Browser blockt URL. URL &#xFC;ber Link in der Entwickler-Konsole (F12) best&#xE4;tigen. Angezeigte
         Fehlermeldung (net::ERR_INSECURE_RESPONSE).
 </source>
-            <target state="new">
-    Browser blockt URL. URL &#xFC;ber Link in der Entwickler-Konsole (F12) best&#xE4;tigen. Angezeigte
-        Fehlermeldung (net::ERR_INSECURE_RESPONSE).
-</target>
+            <target state="final">+</target>
             <context-group purpose="location">
               <context context-type="sourcefile">app/login/login.component.ts</context>
               <context context-type="linenumber">1</context>
@@ -66,7 +63,7 @@
           </trans-unit>
           <trans-unit id="dataSet" datatype="html">
             <source>Datensatz</source>
-            <target state="new">Datensatz</target>
+            <target state="final">|</target>
             <context-group purpose="location">
               <context context-type="sourcefile">app/tools/shared/components/material-table/material-table.component.ts</context>
               <context context-type="linenumber">5</context>
@@ -74,7 +71,7 @@
           </trans-unit>
           <trans-unit id="dataSets" datatype="html">
             <source>Datens&#xE4;tze</source>
-            <target state="new">Datens&#xE4;tze</target>
+            <target state="final">()</target>
             <context-group purpose="location">
               <context context-type="sourcefile">app/tools/shared/components/material-table/material-table.component.ts</context>
               <context context-type="linenumber">6</context>
@@ -3153,7 +3150,7 @@
           </trans-unit>
           <trans-unit id="welcomeMessageB" datatype="html">
             <source>edpOffert- &#x26; Auftrags-Tool</source>
-            <target state="new">edpOffert- &#x26;amp; Auftrags-Tool</target>
+            <target state="new">edpOffert- &#x26;amp;amp; Auftrags-Tool</target>
             <context-group purpose="location">
               <context context-type="sourcefile">app/tools/offerte/offerte-show/offerte-show.component.ts</context>
               <context context-type="linenumber">747</context>
@@ -3972,7 +3969,7 @@
           </trans-unit>
           <trans-unit id="offerAndOrder" datatype="html">
             <source>Offert- &#x26; Auftrags-Tool</source>
-            <target state="new">Offert- &#x26;amp; Auftrags-Tool</target>
+            <target state="new">Offert- &#x26;amp;amp; Auftrags-Tool</target>
             <context-group purpose="location">
               <context context-type="sourcefile">app/tools/shared/components/headersomedia/headersomedia.component.ts</context>
               <context context-type="linenumber">5</context>
