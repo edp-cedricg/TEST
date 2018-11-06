@@ -79,7 +79,7 @@
           </trans-unit>
           <trans-unit id="choosen" datatype="html">
             <source>ausgew&#xE4;hlt</source>
-            <target state="new">ausgew&#xE4;hlt</target>
+            <target state="final">&#xFC;&#xA8;&#x60;??~][}{&#xE4;$&#x3E;\1+&#x22;*2*&#xE7;%</target>
             <context-group purpose="location">
               <context context-type="sourcefile">app/tools/shared/components/material-table/material-table.component.ts</context>
               <context context-type="linenumber">7</context>
