@@ -3152,7 +3152,7 @@
             </context-group>
           </trans-unit>
           <trans-unit id="welcomeMessageB" datatype="html">
-            <source>edpOffert- & Auftrags-Tool</source>
+            <source>edpOffert- &amp; Auftrags-Tool</source>
             <target state="new">edpOffert- &amp; Auftrags-Tool</target>
             <context-group purpose="location">
               <context context-type="sourcefile">app/tools/offerte/offerte-show/offerte-show.component.ts</context>
