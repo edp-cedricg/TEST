@@ -3583,8 +3583,8 @@
             </context-group>
           </trans-unit>
           <trans-unit id="titel" datatype="html">
-            <source>Titel<x xmlns="urn:oasis:names:tc:xliff:document:1.2" id="START_TAG_SPAN" ctype="x-span" equiv-text="<span>"/> <x xmlns="urn:oasis:names:tc:xliff:document:1.2" id="INTERPOLATION" equiv-text="{{i+1}}"/><x xmlns="urn:oasis:names:tc:xliff:document:1.2" id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="</span>"/>:</source>
-            <target state="new">Titel<x xmlns="urn:oasis:names:tc:xliff:document:1.2" id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/> <x xmlns="urn:oasis:names:tc:xliff:document:1.2" id="INTERPOLATION" equiv-text="{{i+1}}"/><x xmlns="urn:oasis:names:tc:xliff:document:1.2" id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>:</target>
+            <source>Titel</source>
+            <target state="new">Titel</target>
             <context-group purpose="location">
               <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-hoch-4/a4-hoch-4.component.ts</context>
               <context context-type="linenumber">92</context>
