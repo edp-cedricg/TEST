@@ -3971,7 +3971,7 @@
             </context-group>
           </trans-unit>
           <trans-unit id="offerAndOrder" datatype="html">
-            <source>Offert- & Auftrags-Tool</source>
+            <source>Offert- &amp; Auftrags-Tool</source>
             <target state="new">Offert- &amp; Auftrags-Tool</target>
             <context-group purpose="location">
               <context context-type="sourcefile">app/tools/shared/components/headersomedia/headersomedia.component.ts</context>
