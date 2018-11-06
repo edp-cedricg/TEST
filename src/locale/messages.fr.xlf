@@ -11,16 +11,16 @@
             </context-group>
           </trans-unit>
           <trans-unit id="instancePlaceholder" datatype="html">
-            <source>Instanz [z.B.: 'VERLAG-prod' oder iURL]</source>
-            <target state="new">Instanz [z.B.: 'VERLAG-prod' oder iURL]</target>
+            <source>Instanz [z.B.: &#x27;VERLAG-prod&#x27; oder iURL]</source>
+            <target state="final">it does</target>
             <context-group purpose="location">
               <context context-type="sourcefile">app/login/login.component.ts</context>
               <context context-type="linenumber">19</context>
             </context-group>
           </trans-unit>
           <trans-unit id="mandatorPlaceholder" datatype="html">
-            <source>Mandant [z.B. '5' oder leer für Default]</source>
-            <target state="new">Mandant [z.B. '5' oder leer für Default]</target>
+            <source>Mandant [z.B. &#x27;5&#x27; oder leer f&#xFC;r Default]</source>
+            <target state="new">Mandant [z.B. &#x27;5&#x27; oder leer f&#xFC;r Default]</target>
             <context-group purpose="location">
               <context context-type="sourcefile">app/login/login.component.ts</context>
               <context context-type="linenumber">26</context>
@@ -52,11 +52,11 @@
           </trans-unit>
           <trans-unit id="browserBlocking" datatype="html">
             <source>
-    Browser blockt URL. URL über Link in der Entwickler-Konsole (F12) bestätigen. Angezeigte
+    Browser blockt URL. URL &#xFC;ber Link in der Entwickler-Konsole (F12) best&#xE4;tigen. Angezeigte
         Fehlermeldung (net::ERR_INSECURE_RESPONSE).
 </source>
             <target state="new">
-    Browser blockt URL. URL über Link in der Entwickler-Konsole (F12) bestätigen. Angezeigte
+    Browser blockt URL. URL &#xFC;ber Link in der Entwickler-Konsole (F12) best&#xE4;tigen. Angezeigte
         Fehlermeldung (net::ERR_INSECURE_RESPONSE).
 </target>
             <context-group purpose="location">
@@ -73,16 +73,16 @@
             </context-group>
           </trans-unit>
           <trans-unit id="dataSets" datatype="html">
-            <source>Datensätze</source>
-            <target state="new">Datensätze</target>
+            <source>Datens&#xE4;tze</source>
+            <target state="new">Datens&#xE4;tze</target>
             <context-group purpose="location">
               <context context-type="sourcefile">app/tools/shared/components/material-table/material-table.component.ts</context>
               <context context-type="linenumber">6</context>
             </context-group>
           </trans-unit>
           <trans-unit id="choosen" datatype="html">
-            <source>ausgewählt</source>
-            <target state="new">ausgewählt</target>
+            <source>ausgew&#xE4;hlt</source>
+            <target state="new">ausgew&#xE4;hlt</target>
             <context-group purpose="location">
               <context context-type="sourcefile">app/tools/shared/components/material-table/material-table.component.ts</context>
               <context context-type="linenumber">7</context>
@@ -489,8 +489,8 @@
             </context-group>
           </trans-unit>
           <trans-unit id="phoneBusiness" datatype="html">
-            <source>Telefon Geschäft</source>
-            <target state="new">Telefon Geschäft</target>
+            <source>Telefon Gesch&#xE4;ft</source>
+            <target state="new">Telefon Gesch&#xE4;ft</target>
             <context-group purpose="location">
               <context context-type="sourcefile">app/tools/crm/shared/components/agentursuchfeld/agentursuchfeld.component.ts</context>
               <context context-type="linenumber">58</context>
@@ -657,8 +657,8 @@
             </context-group>
           </trans-unit>
           <trans-unit id="activity" datatype="html">
-            <source>Aktivität</source>
-            <target state="new">Aktivität</target>
+            <source>Aktivit&#xE4;t</source>
+            <target state="new">Aktivit&#xE4;t</target>
             <context-group purpose="location">
               <context context-type="sourcefile">app/tools/crm/shared/components/aktivitaetdropmaterial/aktivitaetdropmaterial.component.ts</context>
               <context context-type="linenumber">1</context>
@@ -737,8 +737,8 @@
             </context-group>
           </trans-unit>
           <trans-unit id="cancelDateB" datatype="html">
-            <source>löschen</source>
-            <target state="new">löschen</target>
+            <source>l&#xF6;schen</source>
+            <target state="new">l&#xF6;schen</target>
             <context-group purpose="location">
               <context context-type="sourcefile">app/tools/crm/shared/components/testmainpanel/testmainpanel.component.ts</context>
               <context context-type="linenumber">81</context>
@@ -749,8 +749,8 @@
             </context-group>
           </trans-unit>
           <trans-unit id="dateCanceled" datatype="html">
-            <source>Termin Gelöscht</source>
-            <target state="new">Termin Gelöscht</target>
+            <source>Termin Gel&#xF6;scht</source>
+            <target state="new">Termin Gel&#xF6;scht</target>
             <context-group purpose="location">
               <context context-type="sourcefile">app/tools/crm/shared/components/testmainpanel/testmainpanel.component.ts</context>
               <context context-type="linenumber">91</context>
@@ -777,8 +777,8 @@
             </context-group>
           </trans-unit>
           <trans-unit id="deleteClientTT" datatype="html">
-            <source>Kunde löschen</source>
-            <target state="new">Kunde löschen</target>
+            <source>Kunde l&#xF6;schen</source>
+            <target state="new">Kunde l&#xF6;schen</target>
             <context-group purpose="location">
               <context context-type="sourcefile">app/tools/crm/shared/components/mainpanelhead/mainpanelhead.component.ts</context>
               <context context-type="linenumber">11</context>
@@ -809,16 +809,16 @@
             </context-group>
           </trans-unit>
           <trans-unit id="deleteAgencyTT" datatype="html">
-            <source>Agentur löschen</source>
-            <target state="new">Agentur löschen</target>
+            <source>Agentur l&#xF6;schen</source>
+            <target state="new">Agentur l&#xF6;schen</target>
             <context-group purpose="location">
               <context context-type="sourcefile">app/tools/crm/shared/components/mainpanelhead/mainpanelhead.component.ts</context>
               <context context-type="linenumber">61</context>
             </context-group>
           </trans-unit>
           <trans-unit id="delExistingAgencyTT" datatype="html">
-            <source>Bestehende Agentur löschen</source>
-            <target state="new">Bestehende Agentur löschen</target>
+            <source>Bestehende Agentur l&#xF6;schen</source>
+            <target state="new">Bestehende Agentur l&#xF6;schen</target>
             <context-group purpose="location">
               <context context-type="sourcefile">app/tools/crm/shared/components/mainpanelhead/mainpanelhead.component.ts</context>
               <context context-type="linenumber">62</context>
@@ -1062,8 +1062,8 @@
             </context-group>
           </trans-unit>
           <trans-unit id="delete" datatype="html">
-            <source>Löschen</source>
-            <target state="new">Löschen</target>
+            <source>L&#xF6;schen</source>
+            <target state="new">L&#xF6;schen</target>
             <context-group purpose="location">
               <context context-type="sourcefile">app/tools/crm/shared/components/chipsanzeige/chipsanzeige.component.ts</context>
               <context context-type="linenumber">21</context>
@@ -1642,8 +1642,8 @@
             </context-group>
           </trans-unit>
           <trans-unit id="changeClient" datatype="html">
-            <source>Kunde ändern</source>
-            <target state="new">Kunde ändern</target>
+            <source>Kunde &#xE4;ndern</source>
+            <target state="new">Kunde &#xE4;ndern</target>
             <context-group purpose="location">
               <context context-type="sourcefile">app/tools/crm/shared/components/kundenanzeige/kundenanzeige.component.ts</context>
               <context context-type="linenumber">1</context>
@@ -1738,8 +1738,8 @@
             </context-group>
           </trans-unit>
           <trans-unit id="resignTT" datatype="html">
-            <source>Kündigen</source>
-            <target state="new">Kündigen</target>
+            <source>K&#xFC;ndigen</source>
+            <target state="new">K&#xFC;ndigen</target>
             <context-group purpose="location">
               <context context-type="sourcefile">app/tools/crm/shared/components/infosabo/infosabo.component.ts</context>
               <context context-type="linenumber">16</context>
@@ -2113,8 +2113,8 @@
             </context-group>
           </trans-unit>
           <trans-unit id="nextAppointments" datatype="html">
-            <source>Nächste Termine</source>
-            <target state="new">Nächste Termine</target>
+            <source>N&#xE4;chste Termine</source>
+            <target state="new">N&#xE4;chste Termine</target>
             <context-group purpose="location">
               <context context-type="sourcefile">app/tools/crm/crmplus/shared/components/cockpitnexttermin/cockpitnexttermin.component.ts</context>
               <context context-type="linenumber">4</context>
@@ -2205,17 +2205,17 @@
             </context-group>
           </trans-unit>
           <trans-unit id="openModules" datatype="html">
-            <source>Die folgenden Module sind für dich frei geschaltet</source>
-            <target state="new">Die folgenden Module sind für dich frei geschaltet</target>
+            <source>Die folgenden Module sind f&#xFC;r dich frei geschaltet</source>
+            <target state="new">Die folgenden Module sind f&#xFC;r dich frei geschaltet</target>
             <context-group purpose="location">
               <context context-type="sourcefile">app/tools/shared/components/home/home.component.ts</context>
               <context context-type="linenumber">10</context>
             </context-group>
           </trans-unit>
           <trans-unit id="additionalModules1" datatype="html">
-            <source>Falls du Zugriff auf weitere Funktionalitäten benötigst, wende dich bitte an die zuständige Person in deinem Unternehmen. 
+            <source>Falls du Zugriff auf weitere Funktionalit&#xE4;ten ben&#xF6;tigst, wende dich bitte an die zust&#xE4;ndige Person in deinem Unternehmen. 
     Alternativ kannst du auch uns kontaktieren</source>
-            <target state="new">Falls du Zugriff auf weitere Funktionalitäten benötigst, wende dich bitte an die zuständige Person in deinem Unternehmen. 
+            <target state="new">Falls du Zugriff auf weitere Funktionalit&#xE4;ten ben&#xF6;tigst, wende dich bitte an die zust&#xE4;ndige Person in deinem Unternehmen. 
     Alternativ kannst du auch uns kontaktieren</target>
             <context-group purpose="location">
               <context context-type="sourcefile">app/tools/shared/components/home/home.component.ts</context>
@@ -2223,16 +2223,16 @@
             </context-group>
           </trans-unit>
           <trans-unit id="additionalModules2" datatype="html">
-            <source>Ja, ich will zusätzliche Module nutzen</source>
-            <target state="new">Ja, ich will zusätzliche Module nutzen</target>
+            <source>Ja, ich will zus&#xE4;tzliche Module nutzen</source>
+            <target state="new">Ja, ich will zus&#xE4;tzliche Module nutzen</target>
             <context-group purpose="location">
               <context context-type="sourcefile">app/tools/shared/components/home/home.component.ts</context>
               <context context-type="linenumber">29</context>
             </context-group>
           </trans-unit>
           <trans-unit id="insertClient" datatype="html">
-            <source>Kunde eingeben und mit Space oder Enter bestätigen</source>
-            <target state="new">Kunde eingeben und mit Space oder Enter bestätigen</target>
+            <source>Kunde eingeben und mit Space oder Enter best&#xE4;tigen</source>
+            <target state="new">Kunde eingeben und mit Space oder Enter best&#xE4;tigen</target>
             <context-group purpose="location">
               <context context-type="sourcefile">app/tools/shared/components/customersearch/customersearch.component.ts</context>
               <context context-type="linenumber">2</context>
@@ -2664,28 +2664,28 @@
             </context-group>
           </trans-unit>
           <trans-unit id="freeFormTippsTitle" datatype="html">
-            <source>Tipps für das Arbeiten mit Freeform Vorlagen</source>
-            <target state="new">Tipps für das Arbeiten mit Freeform Vorlagen</target>
+            <source>Tipps f&#xFC;r das Arbeiten mit Freeform Vorlagen</source>
+            <target state="new">Tipps f&#xFC;r das Arbeiten mit Freeform Vorlagen</target>
             <context-group purpose="location">
               <context context-type="sourcefile">app/tools/offerte/offerte-show/offerte-show.component.ts</context>
               <context context-type="linenumber">109</context>
             </context-group>
           </trans-unit>
           <trans-unit id="freeFormTippsA" datatype="html">
-            <source>Sie können direkt im Preview-Bereich Ihren Text editieren. Das Editormenü erscheint, 
-                  sobald Sie entweder einen Text auswählen oder an eine leere Stelle doppelklicken.</source>
-            <target state="new">Sie können direkt im Preview-Bereich Ihren Text editieren. Das Editormenü erscheint, 
-                  sobald Sie entweder einen Text auswählen oder an eine leere Stelle doppelklicken.</target>
+            <source>Sie k&#xF6;nnen direkt im Preview-Bereich Ihren Text editieren. Das Editormen&#xFC; erscheint, 
+                  sobald Sie entweder einen Text ausw&#xE4;hlen oder an eine leere Stelle doppelklicken.</source>
+            <target state="new">Sie k&#xF6;nnen direkt im Preview-Bereich Ihren Text editieren. Das Editormen&#xFC; erscheint, 
+                  sobald Sie entweder einen Text ausw&#xE4;hlen oder an eine leere Stelle doppelklicken.</target>
             <context-group purpose="location">
               <context context-type="sourcefile">app/tools/offerte/offerte-show/offerte-show.component.ts</context>
               <context context-type="linenumber">111</context>
             </context-group>
           </trans-unit>
           <trans-unit id="freeFormTippsB" datatype="html">
-            <source>Wenn Sie einen neuen Abschnitt beginnen, erscheint ein Plus-Symbol über welches
-                  Sie weitere Elemente wie z.B. eine Tabelle in Ihr Dokument einfügen können.</source>
-            <target state="new">Wenn Sie einen neuen Abschnitt beginnen, erscheint ein Plus-Symbol über welches
-                  Sie weitere Elemente wie z.B. eine Tabelle in Ihr Dokument einfügen können.</target>
+            <source>Wenn Sie einen neuen Abschnitt beginnen, erscheint ein Plus-Symbol &#xFC;ber welches
+                  Sie weitere Elemente wie z.B. eine Tabelle in Ihr Dokument einf&#xFC;gen k&#xF6;nnen.</source>
+            <target state="new">Wenn Sie einen neuen Abschnitt beginnen, erscheint ein Plus-Symbol &#xFC;ber welches
+                  Sie weitere Elemente wie z.B. eine Tabelle in Ihr Dokument einf&#xFC;gen k&#xF6;nnen.</target>
             <context-group purpose="location">
               <context context-type="sourcefile">app/tools/offerte/offerte-show/offerte-show.component.ts</context>
               <context context-type="linenumber">113</context>
@@ -2700,8 +2700,8 @@
             </context-group>
           </trans-unit>
           <trans-unit id="openForChange" datatype="html">
-            <source>Zur erneuten Bearbeitung bitte zuerst für Änderungen frei geben.</source>
-            <target state="new">Zur erneuten Bearbeitung bitte zuerst für Änderungen frei geben.</target>
+            <source>Zur erneuten Bearbeitung bitte zuerst f&#xFC;r &#xC4;nderungen frei geben.</source>
+            <target state="new">Zur erneuten Bearbeitung bitte zuerst f&#xFC;r &#xC4;nderungen frei geben.</target>
             <context-group purpose="location">
               <context context-type="sourcefile">app/tools/offerte/offerte-show/offerte-show.component.ts</context>
               <context context-type="linenumber">130</context>
@@ -2772,8 +2772,8 @@
             </context-group>
           </trans-unit>
           <trans-unit id="chooseObject" datatype="html">
-            <source>Objekt auswählen</source>
-            <target state="new">Objekt auswählen</target>
+            <source>Objekt ausw&#xE4;hlen</source>
+            <target state="new">Objekt ausw&#xE4;hlen</target>
             <context-group purpose="location">
               <context context-type="sourcefile">app/tools/offerte/offerte-show/offerte-show.component.ts</context>
               <context context-type="linenumber">297</context>
@@ -3064,24 +3064,24 @@
             </context-group>
           </trans-unit>
           <trans-unit id="pricePosition" datatype="html">
-            <source>Preisposition auswählen</source>
-            <target state="new">Preisposition auswählen</target>
+            <source>Preisposition ausw&#xE4;hlen</source>
+            <target state="new">Preisposition ausw&#xE4;hlen</target>
             <context-group purpose="location">
               <context context-type="sourcefile">app/tools/offerte/offerte-show/offerte-show.component.ts</context>
               <context context-type="linenumber">619</context>
             </context-group>
           </trans-unit>
           <trans-unit id="discountAddition" datatype="html">
-            <source>Rabatte/Zuschläge</source>
-            <target state="new">Rabatte/Zuschläge</target>
+            <source>Rabatte/Zuschl&#xE4;ge</source>
+            <target state="new">Rabatte/Zuschl&#xE4;ge</target>
             <context-group purpose="location">
               <context context-type="sourcefile">app/tools/offerte/offerte-show/offerte-show.component.ts</context>
               <context context-type="linenumber">618</context>
             </context-group>
           </trans-unit>
           <trans-unit id="addPricePosition" datatype="html">
-            <source>Preispos hinzufügen</source>
-            <target state="new">Preispos hinzufügen</target>
+            <source>Preispos hinzuf&#xFC;gen</source>
+            <target state="new">Preispos hinzuf&#xFC;gen</target>
             <context-group purpose="location">
               <context context-type="sourcefile">app/tools/offerte/offerte-show/offerte-show.component.ts</context>
               <context context-type="linenumber">629</context>
@@ -3104,24 +3104,24 @@
             </context-group>
           </trans-unit>
           <trans-unit id="addPagebreak" datatype="html">
-            <source>Seitenumbruch einfügen</source>
-            <target state="new">Seitenumbruch einfügen</target>
+            <source>Seitenumbruch einf&#xFC;gen</source>
+            <target state="new">Seitenumbruch einf&#xFC;gen</target>
             <context-group purpose="location">
               <context context-type="sourcefile">app/tools/offerte/offerte-show/offerte-show.component.ts</context>
               <context context-type="linenumber">679</context>
             </context-group>
           </trans-unit>
           <trans-unit id="addAdMedium" datatype="html">
-            <source>Werbemittel hinzufügen</source>
-            <target state="new">Werbemittel hinzufügen</target>
+            <source>Werbemittel hinzuf&#xFC;gen</source>
+            <target state="new">Werbemittel hinzuf&#xFC;gen</target>
             <context-group purpose="location">
               <context context-type="sourcefile">app/tools/offerte/offerte-show/offerte-show.component.ts</context>
               <context context-type="linenumber">688</context>
             </context-group>
           </trans-unit>
           <trans-unit id="addObject" datatype="html">
-            <source>Objekt hinzufügen</source>
-            <target state="new">Objekt hinzufügen</target>
+            <source>Objekt hinzuf&#xFC;gen</source>
+            <target state="new">Objekt hinzuf&#xFC;gen</target>
             <context-group purpose="location">
               <context context-type="sourcefile">app/tools/offerte/offerte-show/offerte-show.component.ts</context>
               <context context-type="linenumber">697</context>
@@ -3136,8 +3136,8 @@
             </context-group>
           </trans-unit>
           <trans-unit id="chooseModel" datatype="html">
-            <source>Vorlage auswählen</source>
-            <target state="new">Vorlage auswählen</target>
+            <source>Vorlage ausw&#xE4;hlen</source>
+            <target state="new">Vorlage ausw&#xE4;hlen</target>
             <context-group purpose="location">
               <context context-type="sourcefile">app/tools/offerte/offerte-show/offerte-show.component.ts</context>
               <context context-type="linenumber">722</context>
@@ -3152,17 +3152,17 @@
             </context-group>
           </trans-unit>
           <trans-unit id="welcomeMessageB" datatype="html">
-            <source>edpOffert- &amp; Auftrags-Tool</source>
-            <target state="new">edpOffert- &amp; Auftrags-Tool</target>
+            <source>edpOffert- &#x26; Auftrags-Tool</source>
+            <target state="new">edpOffert- &#x26;amp; Auftrags-Tool</target>
             <context-group purpose="location">
               <context context-type="sourcefile">app/tools/offerte/offerte-show/offerte-show.component.ts</context>
               <context context-type="linenumber">747</context>
             </context-group>
           </trans-unit>
           <trans-unit id="tutorialText" datatype="html">
-            <source>Wählen Sie als erstes die gewünschte Dokumentenvorlage über das DropDown "Vorlage" oben in der Mitte der rechten Bildschirmspalte
+            <source>W&#xE4;hlen Sie als erstes die gew&#xFC;nschte Dokumentenvorlage &#xFC;ber das DropDown &#x22;Vorlage&#x22; oben in der Mitte der rechten Bildschirmspalte
                   und erfassen Sie dann Ihre Offerte/Ihren Auftrag im linken Bildschirmbereich (oder bei freeform Vorlagen direkt im Dokument).</source>
-            <target state="new">Wählen Sie als erstes die gewünschte Dokumentenvorlage über das DropDown "Vorlage" oben in der Mitte der rechten Bildschirmspalte
+            <target state="new">W&#xE4;hlen Sie als erstes die gew&#xFC;nschte Dokumentenvorlage &#xFC;ber das DropDown &#x22;Vorlage&#x22; oben in der Mitte der rechten Bildschirmspalte
                   und erfassen Sie dann Ihre Offerte/Ihren Auftrag im linken Bildschirmbereich (oder bei freeform Vorlagen direkt im Dokument).</target>
             <context-group purpose="location">
               <context context-type="sourcefile">app/tools/offerte/offerte-show/offerte-show.component.ts</context>
@@ -3178,24 +3178,24 @@
             </context-group>
           </trans-unit>
           <trans-unit id="chooseObject2" datatype="html">
-            <source>Bitte wählen Sie ein Objekt aus</source>
-            <target state="new">Bitte wählen Sie ein Objekt aus</target>
+            <source>Bitte w&#xE4;hlen Sie ein Objekt aus</source>
+            <target state="new">Bitte w&#xE4;hlen Sie ein Objekt aus</target>
             <context-group purpose="location">
               <context context-type="sourcefile">app/tools/offerte/offerte-show/offerte-show.component.ts</context>
               <context context-type="linenumber">5</context>
             </context-group>
           </trans-unit>
           <trans-unit id="howToChooseObjectA" datatype="html">
-            <source>Geben Sie bitte die ersten paar Buchstaben des gewünschten Titels ein.</source>
-            <target state="new">Geben Sie bitte die ersten paar Buchstaben des gewünschten Titels ein.</target>
+            <source>Geben Sie bitte die ersten paar Buchstaben des gew&#xFC;nschten Titels ein.</source>
+            <target state="new">Geben Sie bitte die ersten paar Buchstaben des gew&#xFC;nschten Titels ein.</target>
             <context-group purpose="location">
               <context context-type="sourcefile">app/tools/offerte/offerte-show/offerte-show.component.ts</context>
               <context context-type="linenumber">20</context>
             </context-group>
           </trans-unit>
           <trans-unit id="howToChooseObjectB" datatype="html">
-            <source>Per Mausklick oder [ENTER] wird die getroffene Auswahl ans System übergeben.</source>
-            <target state="new">Per Mausklick oder [ENTER] wird die getroffene Auswahl ans System übergeben.</target>
+            <source>Per Mausklick oder [ENTER] wird die getroffene Auswahl ans System &#xFC;bergeben.</source>
+            <target state="new">Per Mausklick oder [ENTER] wird die getroffene Auswahl ans System &#xFC;bergeben.</target>
             <context-group purpose="location">
               <context context-type="sourcefile">app/tools/offerte/offerte-show/offerte-show.component.ts</context>
               <context context-type="linenumber">20</context>
@@ -3342,8 +3342,8 @@
             </context-group>
           </trans-unit>
           <trans-unit id="for" datatype="html">
-            <source>für</source>
-            <target state="new">für</target>
+            <source>f&#xFC;r</source>
+            <target state="new">f&#xFC;r</target>
             <context-group purpose="location">
               <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-hoch-1/a4-hoch-1.component.ts</context>
               <context context-type="linenumber">86</context>
@@ -3402,8 +3402,8 @@
             </context-group>
           </trans-unit>
           <trans-unit id="clarification" datatype="html">
-            <source>in Abklärung</source>
-            <target state="new">in Abklärung</target>
+            <source>in Abkl&#xE4;rung</source>
+            <target state="new">in Abkl&#xE4;rung</target>
             <context-group purpose="location">
               <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-hoch-1/a4-hoch-1.component.ts</context>
               <context context-type="linenumber">114</context>
@@ -3434,8 +3434,8 @@
             </context-group>
           </trans-unit>
           <trans-unit id="salutations" datatype="html">
-            <source>Freundliche Grüsse</source>
-            <target state="new">Freundliche Grüsse</target>
+            <source>Freundliche Gr&#xFC;sse</source>
+            <target state="new">Freundliche Gr&#xFC;sse</target>
             <context-group purpose="location">
               <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-hoch-1/a4-hoch-1.component.ts</context>
               <context context-type="linenumber">133</context>
@@ -3482,9 +3482,9 @@
             </context-group>
           </trans-unit>
           <trans-unit id="productionSize" datatype="html">
-            <source>Produktionsgrösse (B x H)</source>
-            <target state="new">Produktionsgrösse (B x H)</target>
-            <note priority="1" from="description">(Breite x Höhe)</note>
+            <source>Produktionsgr&#xF6;sse (B x H)</source>
+            <target state="new">Produktionsgr&#xF6;sse (B x H)</target>
+            <note priority="1" from="description">(Breite x H&#xF6;he)</note>
             <context-group purpose="location">
               <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-hoch-2/a4-hoch-2.component.ts</context>
               <context context-type="linenumber">80</context>
@@ -3519,8 +3519,8 @@
             </context-group>
           </trans-unit>
           <trans-unit id="businessconditions" datatype="html">
-            <source>Daten-, Tarif- und Grössenänderungen vorbehalten. Es gelten die allgemeinen Geschäftsbedingungen.</source>
-            <target state="new">Daten-, Tarif- und Grössenänderungen vorbehalten. Es gelten die allgemeinen Geschäftsbedingungen.</target>
+            <source>Daten-, Tarif- und Gr&#xF6;ssen&#xE4;nderungen vorbehalten. Es gelten die allgemeinen Gesch&#xE4;ftsbedingungen.</source>
+            <target state="new">Daten-, Tarif- und Gr&#xF6;ssen&#xE4;nderungen vorbehalten. Es gelten die allgemeinen Gesch&#xE4;ftsbedingungen.</target>
             <context-group purpose="location">
               <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-hoch-2/a4-hoch-2.component.ts</context>
               <context context-type="linenumber">190</context>
@@ -3555,8 +3555,8 @@
             </context-group>
           </trans-unit>
           <trans-unit id="acceptOffer" datatype="html">
-            <source>Wir nehmen das obenerwähnte Angebot gerne an und erteilen Ihnen hiermit den Auftrag.</source>
-            <target state="new">Wir nehmen das obenerwähnte Angebot gerne an und erteilen Ihnen hiermit den Auftrag.</target>
+            <source>Wir nehmen das obenerw&#xE4;hnte Angebot gerne an und erteilen Ihnen hiermit den Auftrag.</source>
+            <target state="new">Wir nehmen das obenerw&#xE4;hnte Angebot gerne an und erteilen Ihnen hiermit den Auftrag.</target>
             <context-group purpose="location">
               <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-hoch-3/a4-hoch-3.component.ts</context>
               <context context-type="linenumber">187</context>
@@ -3583,7 +3583,7 @@
             </context-group>
           </trans-unit>
           <trans-unit id="titel" datatype="html">
-            <source>Titel</source>
+            <source>Titel&#x3C;x xmlns=&#x22;urn:oasis:names:tc:xliff:document:1.2&#x22; id=&#x22;START_TAG_SPAN&#x22; ctype=&#x22;x-span&#x22; equiv-text=&#x22;&#x3C;span&#x3E;&#x22;/&#x3E; &#x3C;x xmlns=&#x22;urn:oasis:names:tc:xliff:document:1.2&#x22; id=&#x22;INTERPOLATION&#x22; equiv-text=&#x22;{{i+1}}&#x22;/&#x3E;&#x3C;x xmlns=&#x22;urn:oasis:names:tc:xliff:document:1.2&#x22; id=&#x22;CLOSE_TAG_SPAN&#x22; ctype=&#x22;x-span&#x22; equiv-text=&#x22;&#x3C;/span&#x3E;&#x22;/&#x3E;:</source>
             <target state="new">Titel</target>
             <context-group purpose="location">
               <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-hoch-4/a4-hoch-4.component.ts</context>
@@ -3943,8 +3943,8 @@
             </context-group>
           </trans-unit>
           <trans-unit id="businessconditionsWOmwst" datatype="html">
-            <source>Daten-, Tarif- und Grössenänderungen vorbehalten. Die Preise verstehen sich in CHF, exkl. Mehrwertsteuer. Es gelten die allgemeinen Geschäftsbedingungen.</source>
-            <target state="new">Daten-, Tarif- und Grössenänderungen vorbehalten. Die Preise verstehen sich in CHF, exkl. Mehrwertsteuer. Es gelten die allgemeinen Geschäftsbedingungen.</target>
+            <source>Daten-, Tarif- und Gr&#xF6;ssen&#xE4;nderungen vorbehalten. Die Preise verstehen sich in CHF, exkl. Mehrwertsteuer. Es gelten die allgemeinen Gesch&#xE4;ftsbedingungen.</source>
+            <target state="new">Daten-, Tarif- und Gr&#xF6;ssen&#xE4;nderungen vorbehalten. Die Preise verstehen sich in CHF, exkl. Mehrwertsteuer. Es gelten die allgemeinen Gesch&#xE4;ftsbedingungen.</target>
             <context-group purpose="location">
               <context context-type="sourcefile">app/tools/offerte/offerte-show/templates/a4-quer-1/a4-quer-1.component.ts</context>
               <context context-type="linenumber">168</context>
@@ -3971,8 +3971,8 @@
             </context-group>
           </trans-unit>
           <trans-unit id="offerAndOrder" datatype="html">
-            <source>Offert- &amp; Auftrags-Tool</source>
-            <target state="new">Offert- &amp; Auftrags-Tool</target>
+            <source>Offert- &#x26; Auftrags-Tool</source>
+            <target state="new">Offert- &#x26;amp; Auftrags-Tool</target>
             <context-group purpose="location">
               <context context-type="sourcefile">app/tools/shared/components/headersomedia/headersomedia.component.ts</context>
               <context context-type="linenumber">5</context>
