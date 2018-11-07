@@ -12,7 +12,7 @@
           </trans-unit>
           <trans-unit id="instancePlaceholder" datatype="html">
             <source>Instanz [z.B.: &#x27;VERLAG-prod&#x27; oder iURL]</source>
-            <target state="new">!</target>
+            <target state="final">L&#x27;instance</target>
             <context-group purpose="location">
               <context context-type="sourcefile">app/login/login.component.ts</context>
               <context context-type="linenumber">19</context>
